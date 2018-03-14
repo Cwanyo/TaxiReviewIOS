@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		1F2935972056AA3200638027 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2935962056AA3200638027 /* AppDelegate.swift */; };
-		1F2935992056AA3200638027 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2935982056AA3200638027 /* FirstViewController.swift */; };
-		1F29359B2056AA3200638027 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29359A2056AA3200638027 /* SecondViewController.swift */; };
+		1F2935992056AA3200638027 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2935982056AA3200638027 /* SearchViewController.swift */; };
+		1F29359B2056AA3200638027 /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29359A2056AA3200638027 /* RecentViewController.swift */; };
 		1F29359E2056AA3200638027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F29359C2056AA3200638027 /* Main.storyboard */; };
 		1F2935A02056AA3200638027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F29359F2056AA3200638027 /* Assets.xcassets */; };
 		1F2935A32056AA3200638027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F2935A12056AA3200638027 /* LaunchScreen.storyboard */; };
+		1F50EBE520598EC2000D4E7E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F50EBE420598EC2000D4E7E /* ProfileViewController.swift */; };
+		1F5B8D212059AAD000042025 /* TaxiDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B8D202059AAD000042025 /* TaxiDetailViewController.swift */; };
+		1F5B8D232059AD5600042025 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B8D222059AD5600042025 /* TabBarController.swift */; };
+		1F5B8D252059B4CD00042025 /* UserReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B8D242059B4CD00042025 /* UserReviewTableViewCell.swift */; };
+		1F5B8D272059B9FA00042025 /* AddReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B8D262059B9FA00042025 /* AddReviewViewController.swift */; };
+		1F5B8D292059BD9C00042025 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B8D282059BD9C00042025 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F2935932056AA3200638027 /* TaxiReviewIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiReviewIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2935962056AA3200638027 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F2935982056AA3200638027 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		1F29359A2056AA3200638027 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1F2935982056AA3200638027 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		1F29359A2056AA3200638027 /* RecentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
 		1F29359D2056AA3200638027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F29359F2056AA3200638027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F2935A22056AA3200638027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F2935A42056AA3200638027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F50EBE420598EC2000D4E7E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1F5B8D202059AAD000042025 /* TaxiDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiDetailViewController.swift; sourceTree = "<group>"; };
+		1F5B8D222059AD5600042025 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		1F5B8D242059B4CD00042025 /* UserReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserReviewTableViewCell.swift; sourceTree = "<group>"; };
+		1F5B8D262059B9FA00042025 /* AddReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewViewController.swift; sourceTree = "<group>"; };
+		1F5B8D282059BD9C00042025 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,53 @@
 		1F2935952056AA3200638027 /* TaxiReviewIOS */ = {
 			isa = PBXGroup;
 			children = (
+				1F50EBE720598F3A000D4E7E /* Models */,
+				1F50EBE620598F2D000D4E7E /* Views */,
+				1F50EBE820598F83000D4E7E /* Controllers */,
+				1F50EBE9205990F3000D4E7E /* Services */,
 				1F2935962056AA3200638027 /* AppDelegate.swift */,
-				1F2935982056AA3200638027 /* FirstViewController.swift */,
-				1F29359A2056AA3200638027 /* SecondViewController.swift */,
 				1F29359C2056AA3200638027 /* Main.storyboard */,
 				1F29359F2056AA3200638027 /* Assets.xcassets */,
 				1F2935A12056AA3200638027 /* LaunchScreen.storyboard */,
 				1F2935A42056AA3200638027 /* Info.plist */,
 			);
 			path = TaxiReviewIOS;
+			sourceTree = "<group>";
+		};
+		1F50EBE620598F2D000D4E7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F5B8D242059B4CD00042025 /* UserReviewTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F50EBE720598F3A000D4E7E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F50EBE820598F83000D4E7E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F5B8D282059BD9C00042025 /* LoginViewController.swift */,
+				1F5B8D222059AD5600042025 /* TabBarController.swift */,
+				1F29359A2056AA3200638027 /* RecentViewController.swift */,
+				1F2935982056AA3200638027 /* SearchViewController.swift */,
+				1F50EBE420598EC2000D4E7E /* ProfileViewController.swift */,
+				1F5B8D202059AAD000042025 /* TaxiDetailViewController.swift */,
+				1F5B8D262059B9FA00042025 /* AddReviewViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1F50EBE9205990F3000D4E7E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F29359B2056AA3200638027 /* SecondViewController.swift in Sources */,
+				1F5B8D292059BD9C00042025 /* LoginViewController.swift in Sources */,
+				1F29359B2056AA3200638027 /* RecentViewController.swift in Sources */,
 				1F2935972056AA3200638027 /* AppDelegate.swift in Sources */,
-				1F2935992056AA3200638027 /* FirstViewController.swift in Sources */,
+				1F5B8D272059B9FA00042025 /* AddReviewViewController.swift in Sources */,
+				1F50EBE520598EC2000D4E7E /* ProfileViewController.swift in Sources */,
+				1F5B8D232059AD5600042025 /* TabBarController.swift in Sources */,
+				1F5B8D212059AAD000042025 /* TaxiDetailViewController.swift in Sources */,
+				1F5B8D252059B4CD00042025 /* UserReviewTableViewCell.swift in Sources */,
+				1F2935992056AA3200638027 /* SearchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
