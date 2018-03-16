@@ -19,6 +19,8 @@
 		1F5B8D252059B4CD00042025 /* UserReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B8D242059B4CD00042025 /* UserReviewTableViewCell.swift */; };
 		1F5B8D272059B9FA00042025 /* AddReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B8D262059B9FA00042025 /* AddReviewViewController.swift */; };
 		1F5B8D292059BD9C00042025 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B8D282059BD9C00042025 /* LoginViewController.swift */; };
+		1F728AA9205C6C2300E4771C /* Taxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F728AA8205C6C2300E4771C /* Taxi.swift */; };
+		1F728AAB205C6CAB00E4771C /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F728AAA205C6CAB00E4771C /* Review.swift */; };
 		99AFE72AA0F53EC68DE6D09D /* Pods_TaxiReviewIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0FF951FD24259CF4B3DC7F /* Pods_TaxiReviewIOS.framework */; };
 		CA6CF974205C0818008A01B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA6CF973205C0818008A01B7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
@@ -38,6 +40,8 @@
 		1F5B8D242059B4CD00042025 /* UserReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserReviewTableViewCell.swift; sourceTree = "<group>"; };
 		1F5B8D262059B9FA00042025 /* AddReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewViewController.swift; sourceTree = "<group>"; };
 		1F5B8D282059BD9C00042025 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1F728AA8205C6C2300E4771C /* Taxi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Taxi.swift; path = TaxiReviewIOS/Controllers/Taxi.swift; sourceTree = SOURCE_ROOT; };
+		1F728AAA205C6CAB00E4771C /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Review.swift; path = TaxiReviewIOS/Controllers/Review.swift; sourceTree = SOURCE_ROOT; };
 		214DAD51FFAE7CF175E6CD64 /* Pods-TaxiReviewIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxiReviewIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaxiReviewIOS/Pods-TaxiReviewIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2AC20C3C6E1E803B3A8D5835 /* Pods-TaxiReviewIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxiReviewIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaxiReviewIOS/Pods-TaxiReviewIOS.release.xcconfig"; sourceTree = "<group>"; };
 		5E0FF951FD24259CF4B3DC7F /* Pods_TaxiReviewIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaxiReviewIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +114,8 @@
 		1F50EBE720598F3A000D4E7E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1F728AA8205C6C2300E4771C /* Taxi.swift */,
+				1F728AAA205C6CAB00E4771C /* Review.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -241,11 +247,15 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TaxiReviewIOS/Pods-TaxiReviewIOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +291,9 @@
 				1F5B8D272059B9FA00042025 /* AddReviewViewController.swift in Sources */,
 				1F50EBE520598EC2000D4E7E /* ProfileViewController.swift in Sources */,
 				1F5B8D232059AD5600042025 /* TabBarController.swift in Sources */,
+				1F728AAB205C6CAB00E4771C /* Review.swift in Sources */,
 				1F5B8D212059AAD000042025 /* TaxiDetailViewController.swift in Sources */,
+				1F728AA9205C6C2300E4771C /* Taxi.swift in Sources */,
 				1F5B8D252059B4CD00042025 /* UserReviewTableViewCell.swift in Sources */,
 				1F2935992056AA3200638027 /* SearchViewController.swift in Sources */,
 			);
