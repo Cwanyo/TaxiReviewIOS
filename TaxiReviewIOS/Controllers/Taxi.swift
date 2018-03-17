@@ -7,11 +7,22 @@
 
 import Foundation
 
-struct Taxi {
+class Taxi {
     var plateNumber: String
     var images: [String]
     var avgCleanness: Double
     var avgPoliteness: Double
     var avgService: Double
     var userReview: [Review]
+    
+    init() {
+        self.plateNumber = ""
+        self.images = [String]()
+        self.avgCleanness = 0
+        self.avgPoliteness = 0
+        self.avgService = 0
+        self.userReview = [Review]()
+    }
+    
 }
+
