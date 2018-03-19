@@ -7,188 +7,188 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		016F27C991CE8CE5A0A6A4781203CCC6 /* bloom.cc in Sources */ = {isa = PBXBuildFile; fileRef = 08476BCC5CD638041A0C8087CAED9AF5 /* bloom.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		00762C9BF778EAFBBE509F6D1958D2B7 /* GTMReadMonitorInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A14E7450E96EAFD85910C39E0FA8393 /* GTMReadMonitorInputStream.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		022BA60EB6ADD7B97EE365CCCE52A1C2 /* arena.h in Headers */ = {isa = PBXBuildFile; fileRef = 55AC1F30A41C9F3D13D174435DC95A7E /* arena.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		03299FD00780F8E75A1118B6EFF1E51A /* histogram.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD38C517BED3798C6FF56733E06F1EC /* histogram.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0474D74E6A62B79963D179CD1CBC066A /* two_level_iterator.cc in Sources */ = {isa = PBXBuildFile; fileRef = DC8C653D2E3626B4C212521E6BCB2251 /* two_level_iterator.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		047C4D945343F46AFF1273DE29F8A290 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5685CB7E82039A6A6D3FC2B6BFD84079 /* ImageView+Kingfisher.swift */; };
 		0507FA39D1FC8E64AD9A8F2AC565B9F7 /* leveldb-library-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80673FF7A4A6F3F70C84A7A548CBAFEC /* leveldb-library-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		051FCF520A54455EDD30162D4310555E /* cache.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4A615A4C7EBB694E590231478A48AC79 /* cache.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
 		05392B9C091E3E274235625B87D6C7BC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FB004D9E69549BA5FF62606969410D /* SystemConfiguration.framework */; };
+		05ADC8D3AEA9C13E8A9AE6BC43B7CCE7 /* GTMNSDictionary+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 34222098956844BA111AF5EC1263FD73 /* GTMNSDictionary+URLArguments.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		05B1F02560378D28FEBD4E8F6D293216 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A294ED974C2E9F63ADECB9BDC91B83 /* Foundation.framework */; };
+		06596F1A20E0EED84A99DF0BF8A56631 /* log_writer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0412BDDEFC0F2666EF0E2AB1B8ADE4D2 /* log_writer.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		0749EC40D3519957D43A1040F9662F71 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 904EBD8983C24FC700F674088773ECDF /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		081EBD59901DD9662667977655031F82 /* env_posix.cc in Sources */ = {isa = PBXBuildFile; fileRef = A98D8C313552133BB89372D0CE1031AE /* env_posix.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		098B2F5B897FC29D4E8715B06ACD7614 /* port_posix_sse.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4A98F560B7F49DC3DB35EAF4DB00DBAD /* port_posix_sse.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		09A0DDE1726C527699A0C0F53482505B /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AB39B5E36E6A45302D17E4331BD5B5 /* AnimatedImageView.swift */; };
 		0A567779D3CA18BC397E4B8B45901525 /* testharness.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA17B88A60AA2C76CD4242CAA9134AD /* testharness.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B28EE6C26A7C17FAA8167A50CA7E5CA /* hash.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9349F8E20038EB1BF45E02159ED5BE68 /* hash.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		0BD6BAF6ADDB6AE8CDE7ACAED2ACDB32 /* filter_block.h in Headers */ = {isa = PBXBuildFile; fileRef = 835E94EFF4DE85D045CD232BF40516F3 /* filter_block.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0CA6357476373C221D44C498AA1D65FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A294ED974C2E9F63ADECB9BDC91B83 /* Foundation.framework */; };
-		0CCEA88F60E25C0188CEEA2F746669C8 /* hash.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9349F8E20038EB1BF45E02159ED5BE68 /* hash.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		0CD364230F07D96CC9F9DFACC89026D6 /* histogram.cc in Sources */ = {isa = PBXBuildFile; fileRef = 88C6F842F363138B8E6CE357F52B3951 /* histogram.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		0F755ADCEAA8BF40FF7BECCBD8B5310B /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB2E3B5DFFAD15384E6DD67CC2A791A /* ImageDownloader.swift */; };
-		11ECC5C9BE0D9AE6AE8079882CB5AF75 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B806B00D57B71E86AA922E033310CD /* Image.swift */; };
+		0E5599BFCD249D140F72C5C5F69F1DB1 /* testharness.cc in Sources */ = {isa = PBXBuildFile; fileRef = 41AE4C8443237A1E1A1BF0ED9DAEE40D /* testharness.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		11F0D0CB930604B4DAAE93FEA3904826 /* GTMNSDictionary+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D6F582D753FEF04AB3EFA43106E32D4 /* GTMNSDictionary+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12CF563678704ED1369F793FA30AAEA9 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCD1D392570CD787EF9DAA85C5344B /* Resource.swift */; };
-		1351C79BE5DA3A3D43D42036A647C262 /* GTMOAuth2SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C048EB3506B3194814943116FDB3CBE /* GTMOAuth2SignIn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1550AE32DC5ADF0FCB9BD311A4B5B1B3 /* version_set.h in Headers */ = {isa = PBXBuildFile; fileRef = A0236A10C6A61F1C87CD11CE70FB9C6B /* version_set.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		157E734578C789C8D18F6191543706B2 /* version_edit.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B91B74A56968CDF370548162FCAD62 /* version_edit.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		16F02E1F02310F49070B098D5B9FE80C /* options.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF9C2751B2E9CCDCB803FDE00BCC560 /* options.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		171D92BAB767E217703001B86CAF5E9E /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A75FA5A868D139F31109A0372AB52D /* FormatIndicatedCacheSerializer.swift */; };
-		17215F03EB95FC5CD35663D80D22DB74 /* status.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2953803FDCC4738ECCF27F7A945AFAEB /* status.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		174F10808F3E0B7E8BCF978E5BAB1BB5 /* c.cc in Sources */ = {isa = PBXBuildFile; fileRef = F2A1475D1B574D46A85EB5EF91BE5ABC /* c.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		184E4CFD9CC6D8B4378E53C6B5CE5AB4 /* port.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A7B1D3DF1A333A1FEE0FFD4301A335D /* port.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1912683039E12275176231D29EE07C7E /* mutexlock.h in Headers */ = {isa = PBXBuildFile; fileRef = B25609A5DAC2D8E9CFB2B796BA21E7BB /* mutexlock.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1AAA30C08DA550BE2FE64A63DF96EA42 /* posix_logger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2812E20676C540E5CE7CEC2C1524DC4F /* posix_logger.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1B4F55F1D2555C18C623C61A6E7492CF /* db_iter.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B38B115C5C5CFFE7212219082FDD34 /* db_iter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1C3B11A652C2AF1235E6981DBBBDA1D5 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F242A9CDEEC3158B1AAB8778CD830DC8 /* Kingfisher-dummy.m */; };
 		1CAD2D19B6043B494770E9DC585D276D /* GTMMIMEDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = FA3FAB125959B26E68E802408A87E25D /* GTMMIMEDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2073ECE1B4D058873B8F5E031774FD20 /* block.cc in Sources */ = {isa = PBXBuildFile; fileRef = C54B8E2D46924E2C2E02409FF34D6067 /* block.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
 		216FD026B6CF3F6C3477A41C7F805FA4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653B4DD522DA3022E8B95CB4CF422D15 /* Security.framework */; };
-		270728363BC4B690C40E53B053710684 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D930F3001F7DE9E944BAF47B81E25 /* ImageCache.swift */; };
+		21DAA1B8DC0FB5AAA25585BB0F6B8B5C /* table_builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 65214FC148A12DFB3131B722875A9804 /* table_builder.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		280AF380471897EA10E1922CD21B7644 /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7188284BA57860AEF5AAD589AE7677E /* ImageModifier.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		29FEADDF2086FDEA7D5BA87DD23B08C6 /* pb_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = F7B532AC1578A0882CF7549C010301EA /* pb_decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DEA98AA54F4D62EEB952189658BD89C /* GTMSessionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F897622ED1CAE8EAB61E88850DE26FEF /* GTMSessionFetcher.m */; };
+		2E9D3D0D9FF2B94293539ACC42041EBE /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A55A8014083A666EF9ECD2538C1CB21 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2EF9AC0688E024B3ACC363ABDE13147E /* status.h in Headers */ = {isa = PBXBuildFile; fileRef = F83332F3D4C2A3AC55CEA1330550B579 /* status.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2EFC826FB30ECD27C98CE7F3707E9012 /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A55A8014083A666EF9ECD2538C1CB21 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		2F288ED3641B2B4775884C462AE377E6 /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C5A48CD4E0506435AB15D54543FF22 /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F90CCCB03C93484F5810B18080D16D4 /* logging.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7AADE8E577261FDC8329C95146A278E0 /* logging.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
 		30F46BD604AECC7F1159470A74794366 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A294ED974C2E9F63ADECB9BDC91B83 /* Foundation.framework */; };
-		31A17D8E7663090166267CB950E5DB45 /* GTMOAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 3769D7ECE47D0FDC959D53B94FF9C139 /* GTMOAuth2Authentication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		31156257A60233926B816A7166E51504 /* dumpfile.cc in Sources */ = {isa = PBXBuildFile; fileRef = DAA1B8609741CE08ECF2EBF1BB925684 /* dumpfile.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		32CF9BB4493C89CB01FFADD6DB754927 /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD413C7FC6869FF03E6241CDE7FB96F /* GoogleToolboxForMac-dummy.m */; };
 		333726D18E7D4FC18D95792999A41B80 /* GTMOAuth2SignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4A523A8419ACA40059FD60B5B48318 /* GTMOAuth2SignIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34AEE5E46A58FA4F6AB5578E8132B06C /* memtable.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EAABFC36A30A109F0EE55361DFFC2C8 /* memtable.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		360F3EFFFCCF95B8D073D7C72067AD1C /* GTMSessionFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D8A5EE53C2E12A2C8B0D1B302AFD8C /* GTMSessionFetcherService.m */; };
-		3845689DFB2BE4BFAD2D3C2733D7054A /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFC65E505D77C69513DB1ACC92301D2 /* ImageTransition.swift */; };
+		3798D1004E36E3C069C9EE00526D0345 /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CED5AA6B6E90158AE0FC9D9DFECEFF /* GTMNSString+URLArguments.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		37AFE7183E4C5A03A95693BCD9EA16DE /* table.cc in Sources */ = {isa = PBXBuildFile; fileRef = B27D8CAEE218B0E7D24E8AECF952B24C /* table.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		386B37864E274D6FB9EDB43164DF10A8 /* crc32c.cc in Sources */ = {isa = PBXBuildFile; fileRef = F88FC4F32359C87133721B2A8C058195 /* crc32c.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		392F2CF142BAA751AC1BB61D8B757D98 /* pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 89818BEC9E2201A0D2C9D46BED0F5CE0 /* pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A50F5C8ECED9627F2EBD97F61BD376D /* pb_common.c in Sources */ = {isa = PBXBuildFile; fileRef = F880DC71566F67D1EA0BDD160C0701C0 /* pb_common.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc -fno-objc-arc"; }; };
-		3DA9227F3FD83241A4D4BA9DBAE405AD /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7188284BA57860AEF5AAD589AE7677E /* ImageModifier.swift */; };
 		3DBFD436769841EABCD8865516C7AB07 /* log_format.h in Headers */ = {isa = PBXBuildFile; fileRef = 05B5452B4E5AFAC14BEC6AA7ACB28D4B /* log_format.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3E95058C12588FB186618FB358EB60E1 /* options.cc in Sources */ = {isa = PBXBuildFile; fileRef = A73B5654B89812A262A0B7AFC3E5FC65 /* options.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
 		3EA5EB74DECDECA27E6505BD395A6BB9 /* GTMOAuth2ViewControllerTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CECC786288737DA8F371AA5A07150B0 /* GTMOAuth2ViewControllerTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3ED6A2D730E9B57B9B98EA2474032487 /* builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7878D1611BE0D262B1EC20D890C5647B /* builder.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		432D8294961EC6165DC9DE9AFFD0284C /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFC65E505D77C69513DB1ACC92301D2 /* ImageTransition.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		437AA21C3A4AB90265CE9B0F754FA4C5 /* GTMReadMonitorInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B344F63DC03DFB660D96D4301797936 /* GTMReadMonitorInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4465AD0C41B312B6691FCD9C73A8288E /* filter_policy.h in Headers */ = {isa = PBXBuildFile; fileRef = 973294E08E129F5F04C5A6E833A360DB /* filter_policy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4558224EE107080F62DEA44D55C85FC1 /* repair.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9DFCCA6F0E8114166522AB3F2B702B8E /* repair.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		44794AEFD21F4ED58B614089A345AD6D /* merger.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0488A55C9280D1BF8D43C131B4E9DA4C /* merger.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		45E45DCE5F063730A35CAD4DF198A9A4 /* merger.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E4884100EDC26B222B5F6D10368B27 /* merger.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		468DFD90B6C4DA2F7CFA0C1C89F1B615 /* nanopb-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD527F6AE2D85BF5567CBF341EF3421 /* nanopb-dummy.m */; };
 		472380E3E4CD788E953BA6AD3090C97C /* block.h in Headers */ = {isa = PBXBuildFile; fileRef = 10AADA69B2CD397B5EEA6ED388909DE1 /* block.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		47343845FF35E9F24D26B7EEABD22308 /* port_example.h in Headers */ = {isa = PBXBuildFile; fileRef = 4857E4DCFD41E590CD683D91F4DE1D01 /* port_example.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4905FAB08AE41BB9C94F10772472AB1F /* GTMSessionFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CF52C05ECA49BFA8AEAABE369234DC /* GTMSessionFetcherLogging.m */; };
-		4A396D7D7A5DF81544FE09D469655521 /* testharness.cc in Sources */ = {isa = PBXBuildFile; fileRef = 41AE4C8443237A1E1A1BF0ED9DAEE40D /* testharness.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		47B6691DCE0F2222FACADB70F11CB268 /* status.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2953803FDCC4738ECCF27F7A945AFAEB /* status.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		483D65EFCABA6B252FA9FA99DE332D12 /* coding.cc in Sources */ = {isa = PBXBuildFile; fileRef = 538B576227909BF5E45C0C87C44DB4AB /* coding.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4A77B55DCC1BE5114A43CA4805B11702 /* GTMGatherInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503C4248113C76103DF6AEFA1CE2AB /* GTMGatherInputStream.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4A79E904C80B13D4DBBE7D7A0A0B4774 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8E8A10351CD4D679D9530478FCC23B /* KingfisherOptionsInfo.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4BA262A5B0E51523B71A926AB5B2333F /* GTMOAuth2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C21AAEBAA967988D0EAC48E862CEF9DF /* GTMOAuth2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DA73447D7B010A64DC632F369DFEB7A /* table_cache.cc in Sources */ = {isa = PBXBuildFile; fileRef = F5E022FF632D2952C246515356D67684 /* table_cache.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4F2AB5BFF7D9DE66B8B242ACE69AE0D9 /* GTMDebugThreadValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 14987718FEA30E1133954C23317CB53F /* GTMDebugThreadValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50F4DA4D9048A0EB36E56D4688059605 /* testutil.cc in Sources */ = {isa = PBXBuildFile; fileRef = D1567C5B939735FCBCBCFBB22F614E32 /* testutil.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		52416A6AC7387ECACCC45596498D96AD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08E2844B7482AE05C1C7799FA6A92E11 /* CFNetwork.framework */; };
 		53927224C9956F91B958DD562CDCD045 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A294ED974C2E9F63ADECB9BDC91B83 /* Foundation.framework */; };
-		54F580BF4588159D6A61F21D15591805 /* pb_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = DDB8F373B43D66F39FD89D563062F32F /* pb_decode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
 		5557A47BDD033621359CD6C61513D1B8 /* testutil.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2E61D829AF8AE4477C1BA1156F934D /* testutil.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		55C84E1B5654883B9137BC7BEA92F73D /* table_builder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BB4503E8C95293E8E0C8CA366F553AA /* table_builder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55D8D5D912CFD2F3584E4553C2EAD734 /* pb_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = A859ABDA86D74E5F4CA3FE622B0685A2 /* pb_encode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
-		5613300A2C0510D0E9DD865BF090875C /* block_builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = B600D828E8F1BBAAF94FBDDB649AE0BF /* block_builder.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		58BD23E49069CDB97DB822D30EC5579F /* memtable.cc in Sources */ = {isa = PBXBuildFile; fileRef = 331366DD8CE66A9B02A812DB7F52DD71 /* memtable.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		5AC063843F5C822D8E0DAD049DB2172C /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13BFF7645F1C2C8A70E243B6E4813F /* Filter.swift */; };
+		56283C4D397C058D245EB1E2F5B67C41 /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC4430553FEC247004BE6BA9BFCAC1 /* ThreadHelper.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5B1AF8B6D07FA01316058C49151CF53A /* GTMOAuth2Authentication.h in Headers */ = {isa = PBXBuildFile; fileRef = B7E22596ADD273A78408B2850B2C85D2 /* GTMOAuth2Authentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B5D8AE167BD8E304CE474A9B8DBA2B4 /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = E9022B7117F1DC901746222BB0582D50 /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B92D1D5ECFEBA99F4C67864E1397A6D /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CED5AA6B6E90158AE0FC9D9DFECEFF /* GTMNSString+URLArguments.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		5CC14863F1CE18295BCA9D191A728C9A /* version_set.cc in Sources */ = {isa = PBXBuildFile; fileRef = 590A2DF84197CB23B804489C0465A9F7 /* version_set.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		5DD133D587AB8FCB50ED56E220F2FF64 /* merger.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0488A55C9280D1BF8D43C131B4E9DA4C /* merger.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		5EB2754D264321B300106C90A2AB8F05 /* env.cc in Sources */ = {isa = PBXBuildFile; fileRef = E4F8B8EE389C4A2681F9D98FBA874201 /* env.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		60B6F9A2A27BAAA4E56BB71A78DCC6C3 /* log_reader.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04D53BE6D9683FDBDC745A91BE29F70E /* log_reader.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		5F3E83088152CA60211BA9588BC16BC6 /* db_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = F2FF0284254EAC210796A438F3590561 /* db_impl.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5F7602BDF8125CCECDEC99BFB24E1082 /* version_edit.cc in Sources */ = {isa = PBXBuildFile; fileRef = DE1E3323D47DB64B21FACF101474C105 /* version_edit.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		632082A8AB33BC832B9AEB065670A73F /* port_posix_sse.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4A98F560B7F49DC3DB35EAF4DB00DBAD /* port_posix_sse.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		642BFD168B950E4D9C59B3887962CE74 /* Pods-TaxiReviewIOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A255E1DCFAE9C12A6DE57A9FFF55D06 /* Pods-TaxiReviewIOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65F3308F5618F443DC2BD093BF9B63C8 /* dbformat.h in Headers */ = {isa = PBXBuildFile; fileRef = 28FBA309E2B354E17C62A68BEED16540 /* dbformat.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6AE8DA783077285DFA7F210F4E779A65 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B3F30F9F788954CB7B54D55E9BB20 /* KingfisherManager.swift */; };
+		66E5AE6CB4E616B4600DA40E2035FC15 /* GTMOAuth2ViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6A3F56588C11458B1A5C2823460E7 /* GTMOAuth2ViewControllerTouch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6C0672D1A1C2A4314FCFE07DD395F2DB /* logging.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7AADE8E577261FDC8329C95146A278E0 /* logging.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6E8F597BA9D8AD09E372CD356C0823D1 /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A75FA5A868D139F31109A0372AB52D /* FormatIndicatedCacheSerializer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6EDCE4FA7F9B0129F1B33CA64765A95C /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B3F30F9F788954CB7B54D55E9BB20 /* KingfisherManager.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7029717B8FC64138FEC0B0A2E543D193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A294ED974C2E9F63ADECB9BDC91B83 /* Foundation.framework */; };
-		731EC3C80826D44456B6215C1D1E3F50 /* port_posix.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9B1B488B030ED44C21DE3F7AF0B1E21C /* port_posix.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
 		741C7EF7CB09028A6C14145A105E82F6 /* GTMSessionUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 62AE74967F09576FFD0449FC889A0D77 /* GTMSessionUploadFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74ABBF82FC6337C1C965C64BDB0E1E8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A294ED974C2E9F63ADECB9BDC91B83 /* Foundation.framework */; };
-		76A80DD2CD1629835DA9FC6AA7A5C732 /* GTMSessionFetcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF94204E06A0ABCD6F32B8C051FC6E7 /* GTMSessionFetcher-dummy.m */; };
-		7AE672DC4B32AF19F80EF28AD5096EDE /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1ACA76313CCB99DC4975C703B29BCC /* UIButton+Kingfisher.swift */; };
+		797F5AB366EDB6E6206BBAA899E9EE1C /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172EA667C983251161BBF2EEA17C0082 /* Placeholder.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		798585BCBC4AA4991E30F1775B631D92 /* comparator.cc in Sources */ = {isa = PBXBuildFile; fileRef = B9C070F5D012BAC60102DAB45255A185 /* comparator.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7A6997BB36048E7A0274322540832861 /* repair.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9DFCCA6F0E8114166522AB3F2B702B8E /* repair.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7BB737D74CAC8183CF6943522A4C6F2B /* version_set.cc in Sources */ = {isa = PBXBuildFile; fileRef = 590A2DF84197CB23B804489C0465A9F7 /* version_set.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7BCBA5822F685281D3151869860AB5E8 /* write_batch.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B63206A498308DF0031B2C93FE5B0AE /* write_batch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C18A23B104C2672BD935467D0B80ECB /* GTMMIMEDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E24CD904483413170E1551897ED26F /* GTMMIMEDocument.m */; };
 		7CF908BF27D6F7564308939CEC081909 /* random.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BF891A45BAA71BA1B5654EBF928C44A /* random.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7F0B3111D41B314575EC5A957DAFF2BA /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8E8A10351CD4D679D9530478FCC23B /* KingfisherOptionsInfo.swift */; };
+		7D2BB270F1640395F22447E65CCCC8BD /* options.cc in Sources */ = {isa = PBXBuildFile; fileRef = A73B5654B89812A262A0B7AFC3E5FC65 /* options.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		806BAA4E00218D70995697C4400BE7A0 /* pb_common.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C982CF6B65BB31265D5FD57F507B31 /* pb_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80F4757729D67504713F2CC65864E8BC /* arena.cc in Sources */ = {isa = PBXBuildFile; fileRef = 75ABC9C2F41FF5B8BB6D1D79D5B4B08A /* arena.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
 		81D48643EA10A7CEF4036CC2A967CDEF /* slice.h in Headers */ = {isa = PBXBuildFile; fileRef = 33320A9A9DE7CF68ADD5D826FC03D9B7 /* slice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		842ECE2E8FD88BD099EB6FD501CE2403 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13BFF7645F1C2C8A70E243B6E4813F /* Filter.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		84403CC062BDF9A84C7241756167B959 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C57E6C350D1924082CD388DF1BAE8B /* RequestModifier.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8522410C85B627FD53DD15A9D7C6D2D1 /* db_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = B77DA3C6FEBC3A5F5B7EEC1CB85C44CD /* db_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8650A6AA7463E955938A1876A4C5BD60 /* two_level_iterator.cc in Sources */ = {isa = PBXBuildFile; fileRef = DC8C653D2E3626B4C212521E6BCB2251 /* two_level_iterator.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8DBD79DD89E835D879F19571B82BBC10 /* GTMSessionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FAF500933AE0451F0207A46D46C1CAC /* GTMSessionFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EC8E3E8E5F0C3020829D0AAAF4C8AC4 /* iterator.cc in Sources */ = {isa = PBXBuildFile; fileRef = B43F705E97405CF44DEE456F810660F0 /* iterator.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
 		8F1C3C7FB8997FA0CF8E119299DD78D4 /* coding.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E8107755ADC1E6FE02703744993F839 /* coding.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8F7BDF1204C33E7BD243AF75EC16CF52 /* table.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B681BCE1CED9A5EBE6AE570D317B9EA /* table.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FA42B0FF32F02B636DFD634D554A1D4 /* coding.cc in Sources */ = {isa = PBXBuildFile; fileRef = 538B576227909BF5E45C0C87C44DB4AB /* coding.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
 		91A4CEB58A353FE3D5BECC447BAACE78 /* logging.h in Headers */ = {isa = PBXBuildFile; fileRef = 28866F1DB8131B1D39ACF75D9B326E3F /* logging.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		923EB9487045D3297D9932193420D597 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693E36CB28650D630CA0E8988E50336 /* ImageProcessor.swift */; };
+		9231E9BCC981C3F08782123BEFF0F71C /* builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7878D1611BE0D262B1EC20D890C5647B /* builder.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9314375F5FB642ECBC9971BABC836B8F /* env_posix_test_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DE440ED1376CFA0272657056545FB5F /* env_posix_test_helper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		93A998B6FEBDCA69102BE64B3E5A43BC /* filter_block.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5FB5DE5460AF6BFBADD17C84E51DC65B /* filter_block.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		943079C9C37C727F1DBB506614ED0A89 /* GTMOAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 3769D7ECE47D0FDC959D53B94FF9C139 /* GTMOAuth2Authentication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9441B1900A10A7479477396DB3C68663 /* histogram.cc in Sources */ = {isa = PBXBuildFile; fileRef = 88C6F842F363138B8E6CE357F52B3951 /* histogram.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		952CF88229619673143E13D92591F7BA /* two_level_iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = C6E37F75BD2FAD8710A5F69FFC79612D /* two_level_iterator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		96ACDA4D360DF9B9C30420A889E4416C /* GTMOAuth2ViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6A3F56588C11458B1A5C2823460E7 /* GTMOAuth2ViewControllerTouch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		97366573F5F8E94B7B4E034CF17BB78B /* iterator_wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3C0C39A0E35678444558AA240808FE /* iterator_wrapper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		98109A0AED75C2DF86204B62752E9EDA /* log_writer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0412BDDEFC0F2666EF0E2AB1B8ADE4D2 /* log_writer.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
 		98714C893E8D07613970FF200FF873CB /* GTMGatherInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = A08208936580112AA65359106573BFC2 /* GTMGatherInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A21CB30C6FD9189472505B9C98BD5F3 /* dumpfile.cc in Sources */ = {isa = PBXBuildFile; fileRef = DAA1B8609741CE08ECF2EBF1BB925684 /* dumpfile.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
 		9A3E29BCA5FBDA98C5BE136BA9485130 /* port_posix.h in Headers */ = {isa = PBXBuildFile; fileRef = C571929BCD2B279899CE62B5043B977E /* port_posix.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9BC0F89A57E1B4DF575CC736E880FAEA /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9B8A3CD681A6DA5C82A5C206C273C /* Kingfisher.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9BCA33B9DB1ED5A6D53F2E783B5D55A9 /* iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9DE89751268C5EADC44CC91F797630 /* iterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D40804A22EBA95694E40EB3C71004C8 /* db_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = F2FF0284254EAC210796A438F3590561 /* db_impl.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		9E04897DC27E8CFB6E58A6255687D9D8 /* GTMGatherInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = DC503C4248113C76103DF6AEFA1CE2AB /* GTMGatherInputStream.m */; };
+		9DF396CBA8C4299B35EF94904384D480 /* filename.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9433F05B218F28ABC8C581FF0D2791ED /* filename.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9F3611F4BF7DE21227EE41B464508F6D /* GTMOAuth2SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C048EB3506B3194814943116FDB3CBE /* GTMOAuth2SignIn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9F48FFB3B135C31B33407AE1A77B2874 /* write_batch.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8C3703824D67ED78E550F7417364BFC7 /* write_batch.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9FA3A779220B92248DBE4337F1BBAD15 /* bloom.cc in Sources */ = {isa = PBXBuildFile; fileRef = 08476BCC5CD638041A0C8087CAED9AF5 /* bloom.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9FE7B426DCB711A471EAF1AD5019DBF7 /* GTMSessionFetcher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FDD2A7B9B22FBF37EEC75D842D3C999 /* GTMSessionFetcher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A154377844877C99CB6AE226353D2ED3 /* pb_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = DDB8F373B43D66F39FD89D563062F32F /* pb_decode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A3B390C2CC9CDC12E88987C9B80EA0DB /* leveldb-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA75C9C4BB00D0A99ACBF15D543C4D65 /* leveldb-library-dummy.m */; };
+		A4BFA5D03E05CCF4D7BA1E9DB25CDB76 /* GTMSessionUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E05F3774ED4F15DB0DECDF4716F949 /* GTMSessionUploadFetcher.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A5689AA693CC1FB6735731F256D5E744 /* env.h in Headers */ = {isa = PBXBuildFile; fileRef = D70AF368C6B6488C0BACC0EECA82981E /* env.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A57019745D87512075963C8F543916F6 /* cache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D92E575D96F9866A99F145D86A2D454 /* cache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A579DF19BFD2C5C9BA9ADE154A552549 /* c.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E54DAE03DD11C259EA1EF7F0032145A /* c.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5E8ED57B0C6F28417A66D4102B60205 /* version_edit.cc in Sources */ = {isa = PBXBuildFile; fileRef = DE1E3323D47DB64B21FACF101474C105 /* version_edit.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		A8096F51DB82ADD9F002809E064F98F9 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4013A3140F7A48FB3E5596F54C916226 /* Indicator.swift */; };
-		A8E084583EE884F1E36F7D8E0F5DD9FB /* crc32c.cc in Sources */ = {isa = PBXBuildFile; fileRef = F88FC4F32359C87133721B2A8C058195 /* crc32c.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		A9701C6F33492296354A0A64D220C9E7 /* c.cc in Sources */ = {isa = PBXBuildFile; fileRef = F2A1475D1B574D46A85EB5EF91BE5ABC /* c.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		AA276321E3A96169B102E2B4EFF4F02D /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97266ABFBBAEFA6AE30725A8E81B0DF9 /* CacheSerializer.swift */; };
-		AA55A56FC7809DD1E62817335FF71533 /* filter_policy.cc in Sources */ = {isa = PBXBuildFile; fileRef = 87273BBA4C70275B62E54CCD8CA6F797 /* filter_policy.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		A5BA819AE9CA559C66A043F263725BF6 /* pb_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = A859ABDA86D74E5F4CA3FE622B0685A2 /* pb_encode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		ABAE5E4F04874FD13AE219B3197BB381 /* atomic_pointer.h in Headers */ = {isa = PBXBuildFile; fileRef = 76812440E38C2CA57A1262A555CEBEF4 /* atomic_pointer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AE926072BA41540DD926427050B995EC /* comparator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DFC9641009E3EA245838DFDC0B731B0 /* comparator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEB21C6FD808C527505F4C65844533B8 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721041751FD972EBC33B8A81BE9BF78D /* String+MD5.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		AFB07038C9465FA5D4DED75CE78A4905 /* skiplist.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8F8345C85E44FFA0C89AE38EF3431C /* skiplist.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B05C496A6F67CE9F60DC711F402AB20A /* GTMDebugSelectorValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = EE87F89977E0EEDD01BB136E45B9CC8D /* GTMDebugSelectorValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0A9906F5C64376F4AD621211F51BA98 /* write_batch.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8C3703824D67ED78E550F7417364BFC7 /* write_batch.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		B333806228F3039CFBE1B3A0DF7CC540 /* dbformat.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F363D2991016CCBF2F12022490C34 /* dbformat.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
 		B4FF31470CD0212830F4057B759A52B4 /* dumpfile.h in Headers */ = {isa = PBXBuildFile; fileRef = EAE1852F07C9692C2F36D4E3877C29F3 /* dumpfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B591F2CDF96903636AA52EA67708E97C /* filename.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9433F05B218F28ABC8C581FF0D2791ED /* filename.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		B637B7B9935ABFC735902CECF7E97CAD /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AB39B5E36E6A45302D17E4331BD5B5 /* AnimatedImageView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B73A419BA20F2F07A61FE4B0B5192377 /* GTMSessionFetcherService.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E089E48A1E9DA56879EDBB98A10696C /* GTMSessionFetcherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B98EBA537E2EF001F501848C96822ABF /* cache.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4A615A4C7EBB694E590231478A48AC79 /* cache.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B9A04CBBF007CB8AAF75D61C5EF4D81F /* GTMMethodCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 24767BE29CD92499E8194FFAFC937DDF /* GTMMethodCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA7F6EAA26CF9D5C1BCA6FCC5F22BD7E /* GTMSessionUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E05F3774ED4F15DB0DECDF4716F949 /* GTMSessionUploadFetcher.m */; };
-		BCDA6101487ADAF8CE25A92727B57C24 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F242A9CDEEC3158B1AAB8778CD830DC8 /* Kingfisher-dummy.m */; };
-		BD4DBE66C5321DDDADC94E55B08F934A /* table.cc in Sources */ = {isa = PBXBuildFile; fileRef = B27D8CAEE218B0E7D24E8AECF952B24C /* table.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		BE830CC3262BEFC804CBE9AD8C1E0A04 /* table_builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 65214FC148A12DFB3131B722875A9804 /* table_builder.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		C09A9D7003942172FB4178D1413EC484 /* GTMReadMonitorInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A14E7450E96EAFD85910C39E0FA8393 /* GTMReadMonitorInputStream.m */; };
+		BF70BFC0EF94A2882F73B4CCE24C618A /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B806B00D57B71E86AA922E033310CD /* Image.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C14D5C4335D506E9D97E71608A06963D /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D0D11FB9E43EFE55F7F787323024B45 /* hash.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1DE7F2F53B734BF3742E58AD86E7C74 /* iterator.cc in Sources */ = {isa = PBXBuildFile; fileRef = B43F705E97405CF44DEE456F810660F0 /* iterator.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C2A25A579492FB3F104B31F6F52C325F /* Pods-TaxiReviewIOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8464B027438E74424D14E68A93F3016B /* Pods-TaxiReviewIOS-dummy.m */; };
 		C34E24520624B382515A0F58185E6926 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E07A0DEC4DAE5A8A51A4096AF9593C7 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C372026C002EF53C7CE2B58EFB4F47C9 /* GTMSessionFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D8A5EE53C2E12A2C8B0D1B302AFD8C /* GTMSessionFetcherService.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C43DF6C7E1E7F3148A016F5D278717A8 /* format.h in Headers */ = {isa = PBXBuildFile; fileRef = 706F6BDD4C3478DDC6BF88F0F69BE76E /* format.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C4A1A63A4C67D9828DF94807BC2C3002 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A294ED974C2E9F63ADECB9BDC91B83 /* Foundation.framework */; };
 		C8F61AC766D4AD989C744074194D6A70 /* crc32c.h in Headers */ = {isa = PBXBuildFile; fileRef = 2039371C682EA356362F72CCBE4F0FBE /* crc32c.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CB8DEAB39CEA8CBFA79C0EE66C0B119A /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453883BAD93D580BA4A2DE0AAD18B8F5 /* GTMSessionFetcher.framework */; };
+		CBC57FBDC03887A0050FB25FA91A2179 /* filter_block.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5FB5DE5460AF6BFBADD17C84E51DC65B /* filter_block.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CCD511112C75259DEC04089982E6AC70 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB2E3B5DFFAD15384E6DD67CC2A791A /* ImageDownloader.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		CD02EFF91211DCC1DE607F885831F891 /* GTMOAuth2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9A85ABC2EDC2FC095C0C3E8E53A7C1 /* GTMOAuth2-dummy.m */; };
+		CD365DE9028DA1F428B6DFE66DAE40CD /* arena.cc in Sources */ = {isa = PBXBuildFile; fileRef = 75ABC9C2F41FF5B8BB6D1D79D5B4B08A /* arena.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CE95507AB14AFEB978899E5A65A8B5C2 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4013A3140F7A48FB3E5596F54C916226 /* Indicator.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D02943388E1F14C3C2DFAC67A9D5BFB8 /* db.h in Headers */ = {isa = PBXBuildFile; fileRef = 082762BE78C8538072FA368531044F1B /* db.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0C4C038F83836962A703CE46CF56073 /* comparator.cc in Sources */ = {isa = PBXBuildFile; fileRef = B9C070F5D012BAC60102DAB45255A185 /* comparator.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		D0325E1DA0115C5CC29CDAE88C3805E3 /* GTMMIMEDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E24CD904483413170E1551897ED26F /* GTMMIMEDocument.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D034F5321A6DAE5DD2B5C482459CCECC /* block.cc in Sources */ = {isa = PBXBuildFile; fileRef = C54B8E2D46924E2C2E02409FF34D6067 /* block.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D1A60B2518CF1D7E067BD1085298E20C /* block_builder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D63E462DCF6DF5A65AEDFEADD1E55FC /* block_builder.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D205E953E843C195D4D27A6960483863 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C57E6C350D1924082CD388DF1BAE8B /* RequestModifier.swift */; };
 		D266098644456504B879FC2B4CE1FB50 /* snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BD651D1C17901C22EBD3B0E79643B54 /* snapshot.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D28734EDC84B2A7FBC4D5DCF95177BF8 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C0061622649BE2603C7333C2E4941A6 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D42E1C9C953771026150086BF7BEBD2B /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDC4430553FEC247004BE6BA9BFCAC1 /* ThreadHelper.swift */; };
-		D472B17C81637E5A348997920034CC8E /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25AF1067025668CA1883335F3C68111 /* ImagePrefetcher.swift */; };
 		D523F84571966505230A38178FA9B1B3 /* table_cache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C0813D186FEECBFC1BBAAD3366DAF1B /* table_cache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D5569D139A2A081F99B02E75B05490FC /* GTMSessionFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CF52C05ECA49BFA8AEAABE369234DC /* GTMSessionFetcherLogging.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D5793C2658C18FCC05D9EB07CA0B7851 /* port_posix.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9B1B488B030ED44C21DE3F7AF0B1E21C /* port_posix.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D648118C8FB83CF0038176244A09BA52 /* env.cc in Sources */ = {isa = PBXBuildFile; fileRef = E4F8B8EE389C4A2681F9D98FBA874201 /* env.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D65E2249B67DA691279CACC6E4EE8160 /* GTMSessionFetcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF94204E06A0ABCD6F32B8C051FC6E7 /* GTMSessionFetcher-dummy.m */; };
+		D6FBE881555E633D746F301C86124BF6 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5685CB7E82039A6A6D3FC2B6BFD84079 /* ImageView+Kingfisher.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D9880B3294914CCD08190AA0800A3FC2 /* GTMSessionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F897622ED1CAE8EAB61E88850DE26FEF /* GTMSessionFetcher.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		DA2F5A299DC9A8ECC5F73A66172E64BC /* GTMNSString+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 5890F25E98403B15A7859025B6AA6AAC /* GTMNSString+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDBE670AD152272D156B19824C4927FF /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D930F3001F7DE9E944BAF47B81E25 /* ImageCache.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		DDFFBF6E5F2706ED3E890B6FA79210F7 /* thread_annotations.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C81F965BFCBAA76DD1CB6BFE7965CA /* thread_annotations.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E0DC63E3FEA808360D265AC495098144 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721041751FD972EBC33B8A81BE9BF78D /* String+MD5.swift */; };
 		E181395E73163EB702FCE9A21403D67B /* pb_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ACD3D18A827D557063381EE1012F682 /* pb_encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3EF7D1632053D75CFFF21381674D052 /* db_iter.cc in Sources */ = {isa = PBXBuildFile; fileRef = F8F5FF77061413D00DA3A3F980D210F6 /* db_iter.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		E2BA209972B122F62104234D2CE37721 /* log_reader.cc in Sources */ = {isa = PBXBuildFile; fileRef = 04D53BE6D9683FDBDC745A91BE29F70E /* log_reader.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E55A1F3D41875AD04EDEFDCEF0BDEA48 /* write_batch_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 321923424B1175645EDF31F151C95624 /* write_batch_internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E6FCAF8C2C830A2B957CFA84DB85EDFD /* testutil.cc in Sources */ = {isa = PBXBuildFile; fileRef = D1567C5B939735FCBCBCFBB22F614E32 /* testutil.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
 		E775A5922A4A4F0C672C4E603CB36972 /* builder.h in Headers */ = {isa = PBXBuildFile; fileRef = 921112F8C81BB868D536B61128021B44 /* builder.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E7A96AFFA285669F36760A9B2C84D098 /* log_writer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5640CF6D037656D762D34155C0DB307B /* log_writer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E7D23D2F163A34BEC60FD54BCCC22C76 /* GTMNSDictionary+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 34222098956844BA111AF5EC1263FD73 /* GTMNSDictionary+URLArguments.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E84966064FC1C0803BE923842202ACEF /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172EA667C983251161BBF2EEA17C0082 /* Placeholder.swift */; };
-		E8CFBF0102A47C42F7AE900BA70D8743 /* table_cache.cc in Sources */ = {isa = PBXBuildFile; fileRef = F5E022FF632D2952C246515356D67684 /* table_cache.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		E7C28DF1EC12E603BCAE58B587E626BE /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1ACA76313CCB99DC4975C703B29BCC /* UIButton+Kingfisher.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E93DCCCE78D990BBA222C32F30E30D90 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 653B4DD522DA3022E8B95CB4CF422D15 /* Security.framework */; };
+		EBD1CE91B2D16510089F656BC0169215 /* env_posix.cc in Sources */ = {isa = PBXBuildFile; fileRef = A98D8C313552133BB89372D0CE1031AE /* env_posix.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EC7D7BEE60BED383C5F8A450DEC247AA /* filter_policy.cc in Sources */ = {isa = PBXBuildFile; fileRef = 87273BBA4C70275B62E54CCD8CA6F797 /* filter_policy.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		ECD3F34803047918661911D3357E9816 /* memtable.cc in Sources */ = {isa = PBXBuildFile; fileRef = 331366DD8CE66A9B02A812DB7F52DD71 /* memtable.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		ED37B360D5C446703ECC48CD58016677 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97266ABFBBAEFA6AE30725A8E81B0DF9 /* CacheSerializer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EDA8958AE6DFEF723B2E9DEBC9091ABC /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693E36CB28650D630CA0E8988E50336 /* ImageProcessor.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EE0058ABFC86AB041ED9E9A40E77BF9C /* format.cc in Sources */ = {isa = PBXBuildFile; fileRef = CE7D0F05A600AE45689C2C5D98ACC2CA /* format.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EE7B8515907147560F5332F0BC83C481 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCD1D392570CD787EF9DAA85C5344B /* Resource.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		EE8F4C47A1F1611BF2B344E08EA04DF4 /* filename.h in Headers */ = {isa = PBXBuildFile; fileRef = B00F308A6F2509AF5CE3DEF5BE31F069 /* filename.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4E509F392A027ABAD2922148C7B4A2E /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25AF1067025668CA1883335F3C68111 /* ImagePrefetcher.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F5531F9DDD1D852322A97C682A5AFC15 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 172CA21223DAD3A524EA0FB553291521 /* GTMOAuth2ViewTouch.xib */; };
 		F6CA012C4CEB1D996CC12EEADD21CDB1 /* GTMSessionFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 7755DDE7826D7CEB7FBB739AF6FE234D /* GTMSessionFetcherLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F949B79CF0DE1A67721B764EC95D20AD /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D9B8A3CD681A6DA5C82A5C206C273C /* Kingfisher.swift */; };
 		F9D92BA503505CB48EF4ECF0DDF57686 /* nanopb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE398C6578DD7083179EB7AF6CF50F6 /* nanopb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA95798073F7421BC9D61BA1F10615B3 /* db_iter.cc in Sources */ = {isa = PBXBuildFile; fileRef = F8F5FF77061413D00DA3A3F980D210F6 /* db_iter.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FBF1FB0E1FC644734F358723B84DF909 /* dbformat.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F363D2991016CCBF2F12022490C34 /* dbformat.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		FC311A1C8EF93F12AC83F98EF7004850 /* log_reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8395B33D499FF528B2A78CEDD1D03E2A /* log_reader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FCA6DE5683C287EC8E5567117B913910 /* format.cc in Sources */ = {isa = PBXBuildFile; fileRef = CE7D0F05A600AE45689C2C5D98ACC2CA /* format.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		FCEF8DCC5D5AAA12D951C25693507C2A /* block_builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = B600D828E8F1BBAAF94FBDDB649AE0BF /* block_builder.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FE8C558F84E146975426CDD42A582FD8 /* pb_common.c in Sources */ = {isa = PBXBuildFile; fileRef = F880DC71566F67D1EA0BDD160C0701C0 /* pb_common.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks -fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1329,7 +1329,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFC6FDF0A36E8D94AB02E27F123E1E33 /* Build configuration list for PBXNativeTarget "GTMSessionFetcher" */;
 			buildPhases = (
-				401A903882CA74E40FBF62890EBDB0AA /* Sources */,
+				F8428E22D39B9BD8D3246B9EDF99928B /* Sources */,
 				85211E7BC2181B8A1DAE1BF2BDD5EABF /* Frameworks */,
 				6E61B23507FCA76D65AEB691166AA317 /* Headers */,
 			);
@@ -1346,7 +1346,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C1E4CEFB2390CBE75E70BAC20F44BBF /* Build configuration list for PBXNativeTarget "Kingfisher" */;
 			buildPhases = (
-				028CF0EB906C10D636EC909AF25FA2CF /* Sources */,
+				1B0C4DBE28D2E9C5B9585DFADB8C3463 /* Sources */,
 				C0B9722E352CF90C920286E6F029D3C0 /* Frameworks */,
 				84676F7D46FF521291CDEB2AB04A454C /* Headers */,
 			);
@@ -1439,44 +1439,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		028CF0EB906C10D636EC909AF25FA2CF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				09A0DDE1726C527699A0C0F53482505B /* AnimatedImageView.swift in Sources */,
-				AA276321E3A96169B102E2B4EFF4F02D /* CacheSerializer.swift in Sources */,
-				5AC063843F5C822D8E0DAD049DB2172C /* Filter.swift in Sources */,
-				171D92BAB767E217703001B86CAF5E9E /* FormatIndicatedCacheSerializer.swift in Sources */,
-				11ECC5C9BE0D9AE6AE8079882CB5AF75 /* Image.swift in Sources */,
-				270728363BC4B690C40E53B053710684 /* ImageCache.swift in Sources */,
-				0F755ADCEAA8BF40FF7BECCBD8B5310B /* ImageDownloader.swift in Sources */,
-				3DA9227F3FD83241A4D4BA9DBAE405AD /* ImageModifier.swift in Sources */,
-				D472B17C81637E5A348997920034CC8E /* ImagePrefetcher.swift in Sources */,
-				923EB9487045D3297D9932193420D597 /* ImageProcessor.swift in Sources */,
-				3845689DFB2BE4BFAD2D3C2733D7054A /* ImageTransition.swift in Sources */,
-				047C4D945343F46AFF1273DE29F8A290 /* ImageView+Kingfisher.swift in Sources */,
-				A8096F51DB82ADD9F002809E064F98F9 /* Indicator.swift in Sources */,
-				BCDA6101487ADAF8CE25A92727B57C24 /* Kingfisher-dummy.m in Sources */,
-				F949B79CF0DE1A67721B764EC95D20AD /* Kingfisher.swift in Sources */,
-				6AE8DA783077285DFA7F210F4E779A65 /* KingfisherManager.swift in Sources */,
-				7F0B3111D41B314575EC5A957DAFF2BA /* KingfisherOptionsInfo.swift in Sources */,
-				E84966064FC1C0803BE923842202ACEF /* Placeholder.swift in Sources */,
-				D205E953E843C195D4D27A6960483863 /* RequestModifier.swift in Sources */,
-				12CF563678704ED1369F793FA30AAEA9 /* Resource.swift in Sources */,
-				E0DC63E3FEA808360D265AC495098144 /* String+MD5.swift in Sources */,
-				D42E1C9C953771026150086BF7BEBD2B /* ThreadHelper.swift in Sources */,
-				7AE672DC4B32AF19F80EF28AD5096EDE /* UIButton+Kingfisher.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		048652B2CDB8D351E86B2CBBABBFB98D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CD02EFF91211DCC1DE607F885831F891 /* GTMOAuth2-dummy.m in Sources */,
-				31A17D8E7663090166267CB950E5DB45 /* GTMOAuth2Authentication.m in Sources */,
-				1351C79BE5DA3A3D43D42036A647C262 /* GTMOAuth2SignIn.m in Sources */,
-				96ACDA4D360DF9B9C30420A889E4416C /* GTMOAuth2ViewControllerTouch.m in Sources */,
+				943079C9C37C727F1DBB506614ED0A89 /* GTMOAuth2Authentication.m in Sources */,
+				9F3611F4BF7DE21227EE41B464508F6D /* GTMOAuth2SignIn.m in Sources */,
+				66E5AE6CB4E616B4600DA40E2035FC15 /* GTMOAuth2ViewControllerTouch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B0C4DBE28D2E9C5B9585DFADB8C3463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B637B7B9935ABFC735902CECF7E97CAD /* AnimatedImageView.swift in Sources */,
+				ED37B360D5C446703ECC48CD58016677 /* CacheSerializer.swift in Sources */,
+				842ECE2E8FD88BD099EB6FD501CE2403 /* Filter.swift in Sources */,
+				6E8F597BA9D8AD09E372CD356C0823D1 /* FormatIndicatedCacheSerializer.swift in Sources */,
+				BF70BFC0EF94A2882F73B4CCE24C618A /* Image.swift in Sources */,
+				DDBE670AD152272D156B19824C4927FF /* ImageCache.swift in Sources */,
+				CCD511112C75259DEC04089982E6AC70 /* ImageDownloader.swift in Sources */,
+				280AF380471897EA10E1922CD21B7644 /* ImageModifier.swift in Sources */,
+				F4E509F392A027ABAD2922148C7B4A2E /* ImagePrefetcher.swift in Sources */,
+				EDA8958AE6DFEF723B2E9DEBC9091ABC /* ImageProcessor.swift in Sources */,
+				432D8294961EC6165DC9DE9AFFD0284C /* ImageTransition.swift in Sources */,
+				D6FBE881555E633D746F301C86124BF6 /* ImageView+Kingfisher.swift in Sources */,
+				CE95507AB14AFEB978899E5A65A8B5C2 /* Indicator.swift in Sources */,
+				1C3B11A652C2AF1235E6981DBBBDA1D5 /* Kingfisher-dummy.m in Sources */,
+				9BC0F89A57E1B4DF575CC736E880FAEA /* Kingfisher.swift in Sources */,
+				6EDCE4FA7F9B0129F1B33CA64765A95C /* KingfisherManager.swift in Sources */,
+				4A79E904C80B13D4DBBE7D7A0A0B4774 /* KingfisherOptionsInfo.swift in Sources */,
+				797F5AB366EDB6E6206BBAA899E9EE1C /* Placeholder.swift in Sources */,
+				84403CC062BDF9A84C7241756167B959 /* RequestModifier.swift in Sources */,
+				EE7B8515907147560F5332F0BC83C481 /* Resource.swift in Sources */,
+				AEB21C6FD808C527505F4C65844533B8 /* String+MD5.swift in Sources */,
+				56283C4D397C058D245EB1E2F5B67C41 /* ThreadHelper.swift in Sources */,
+				E7C28DF1EC12E603BCAE58B587E626BE /* UIButton+Kingfisher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1485,9 +1485,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				32CF9BB4493C89CB01FFADD6DB754927 /* GoogleToolboxForMac-dummy.m in Sources */,
-				2EFC826FB30ECD27C98CE7F3707E9012 /* GTMNSData+zlib.m in Sources */,
-				E7D23D2F163A34BEC60FD54BCCC22C76 /* GTMNSDictionary+URLArguments.m in Sources */,
-				5B92D1D5ECFEBA99F4C67864E1397A6D /* GTMNSString+URLArguments.m in Sources */,
+				2E9D3D0D9FF2B94293539ACC42041EBE /* GTMNSData+zlib.m in Sources */,
+				05ADC8D3AEA9C13E8A9AE6BC43B7CCE7 /* GTMNSDictionary+URLArguments.m in Sources */,
+				3798D1004E36E3C069C9EE00526D0345 /* GTMNSString+URLArguments.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1496,24 +1496,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				468DFD90B6C4DA2F7CFA0C1C89F1B615 /* nanopb-dummy.m in Sources */,
-				3A50F5C8ECED9627F2EBD97F61BD376D /* pb_common.c in Sources */,
-				54F580BF4588159D6A61F21D15591805 /* pb_decode.c in Sources */,
-				55D8D5D912CFD2F3584E4553C2EAD734 /* pb_encode.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		401A903882CA74E40FBF62890EBDB0AA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9E04897DC27E8CFB6E58A6255687D9D8 /* GTMGatherInputStream.m in Sources */,
-				7C18A23B104C2672BD935467D0B80ECB /* GTMMIMEDocument.m in Sources */,
-				C09A9D7003942172FB4178D1413EC484 /* GTMReadMonitorInputStream.m in Sources */,
-				76A80DD2CD1629835DA9FC6AA7A5C732 /* GTMSessionFetcher-dummy.m in Sources */,
-				2DEA98AA54F4D62EEB952189658BD89C /* GTMSessionFetcher.m in Sources */,
-				4905FAB08AE41BB9C94F10772472AB1F /* GTMSessionFetcherLogging.m in Sources */,
-				360F3EFFFCCF95B8D073D7C72067AD1C /* GTMSessionFetcherService.m in Sources */,
-				BA7F6EAA26CF9D5C1BCA6FCC5F22BD7E /* GTMSessionUploadFetcher.m in Sources */,
+				FE8C558F84E146975426CDD42A582FD8 /* pb_common.c in Sources */,
+				A154377844877C99CB6AE226353D2ED3 /* pb_decode.c in Sources */,
+				A5BA819AE9CA559C66A043F263725BF6 /* pb_encode.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1529,49 +1514,64 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80F4757729D67504713F2CC65864E8BC /* arena.cc in Sources */,
-				2073ECE1B4D058873B8F5E031774FD20 /* block.cc in Sources */,
-				5613300A2C0510D0E9DD865BF090875C /* block_builder.cc in Sources */,
-				016F27C991CE8CE5A0A6A4781203CCC6 /* bloom.cc in Sources */,
-				3ED6A2D730E9B57B9B98EA2474032487 /* builder.cc in Sources */,
-				A9701C6F33492296354A0A64D220C9E7 /* c.cc in Sources */,
-				051FCF520A54455EDD30162D4310555E /* cache.cc in Sources */,
-				8FA42B0FF32F02B636DFD634D554A1D4 /* coding.cc in Sources */,
-				D0C4C038F83836962A703CE46CF56073 /* comparator.cc in Sources */,
-				A8E084583EE884F1E36F7D8E0F5DD9FB /* crc32c.cc in Sources */,
-				9D40804A22EBA95694E40EB3C71004C8 /* db_impl.cc in Sources */,
-				E3EF7D1632053D75CFFF21381674D052 /* db_iter.cc in Sources */,
-				B333806228F3039CFBE1B3A0DF7CC540 /* dbformat.cc in Sources */,
-				9A21CB30C6FD9189472505B9C98BD5F3 /* dumpfile.cc in Sources */,
-				5EB2754D264321B300106C90A2AB8F05 /* env.cc in Sources */,
-				081EBD59901DD9662667977655031F82 /* env_posix.cc in Sources */,
-				B591F2CDF96903636AA52EA67708E97C /* filename.cc in Sources */,
-				93A998B6FEBDCA69102BE64B3E5A43BC /* filter_block.cc in Sources */,
-				AA55A56FC7809DD1E62817335FF71533 /* filter_policy.cc in Sources */,
-				FCA6DE5683C287EC8E5567117B913910 /* format.cc in Sources */,
-				0CCEA88F60E25C0188CEEA2F746669C8 /* hash.cc in Sources */,
-				0CD364230F07D96CC9F9DFACC89026D6 /* histogram.cc in Sources */,
-				8EC8E3E8E5F0C3020829D0AAAF4C8AC4 /* iterator.cc in Sources */,
+				CD365DE9028DA1F428B6DFE66DAE40CD /* arena.cc in Sources */,
+				D034F5321A6DAE5DD2B5C482459CCECC /* block.cc in Sources */,
+				FCEF8DCC5D5AAA12D951C25693507C2A /* block_builder.cc in Sources */,
+				9FA3A779220B92248DBE4337F1BBAD15 /* bloom.cc in Sources */,
+				9231E9BCC981C3F08782123BEFF0F71C /* builder.cc in Sources */,
+				174F10808F3E0B7E8BCF978E5BAB1BB5 /* c.cc in Sources */,
+				B98EBA537E2EF001F501848C96822ABF /* cache.cc in Sources */,
+				483D65EFCABA6B252FA9FA99DE332D12 /* coding.cc in Sources */,
+				798585BCBC4AA4991E30F1775B631D92 /* comparator.cc in Sources */,
+				386B37864E274D6FB9EDB43164DF10A8 /* crc32c.cc in Sources */,
+				5F3E83088152CA60211BA9588BC16BC6 /* db_impl.cc in Sources */,
+				FA95798073F7421BC9D61BA1F10615B3 /* db_iter.cc in Sources */,
+				FBF1FB0E1FC644734F358723B84DF909 /* dbformat.cc in Sources */,
+				31156257A60233926B816A7166E51504 /* dumpfile.cc in Sources */,
+				D648118C8FB83CF0038176244A09BA52 /* env.cc in Sources */,
+				EBD1CE91B2D16510089F656BC0169215 /* env_posix.cc in Sources */,
+				9DF396CBA8C4299B35EF94904384D480 /* filename.cc in Sources */,
+				CBC57FBDC03887A0050FB25FA91A2179 /* filter_block.cc in Sources */,
+				EC7D7BEE60BED383C5F8A450DEC247AA /* filter_policy.cc in Sources */,
+				EE0058ABFC86AB041ED9E9A40E77BF9C /* format.cc in Sources */,
+				0B28EE6C26A7C17FAA8167A50CA7E5CA /* hash.cc in Sources */,
+				9441B1900A10A7479477396DB3C68663 /* histogram.cc in Sources */,
+				C1DE7F2F53B734BF3742E58AD86E7C74 /* iterator.cc in Sources */,
 				A3B390C2CC9CDC12E88987C9B80EA0DB /* leveldb-library-dummy.m in Sources */,
-				60B6F9A2A27BAAA4E56BB71A78DCC6C3 /* log_reader.cc in Sources */,
-				98109A0AED75C2DF86204B62752E9EDA /* log_writer.cc in Sources */,
-				2F90CCCB03C93484F5810B18080D16D4 /* logging.cc in Sources */,
-				58BD23E49069CDB97DB822D30EC5579F /* memtable.cc in Sources */,
-				5DD133D587AB8FCB50ED56E220F2FF64 /* merger.cc in Sources */,
-				3E95058C12588FB186618FB358EB60E1 /* options.cc in Sources */,
-				731EC3C80826D44456B6215C1D1E3F50 /* port_posix.cc in Sources */,
-				098B2F5B897FC29D4E8715B06ACD7614 /* port_posix_sse.cc in Sources */,
-				4558224EE107080F62DEA44D55C85FC1 /* repair.cc in Sources */,
-				17215F03EB95FC5CD35663D80D22DB74 /* status.cc in Sources */,
-				BD4DBE66C5321DDDADC94E55B08F934A /* table.cc in Sources */,
-				BE830CC3262BEFC804CBE9AD8C1E0A04 /* table_builder.cc in Sources */,
-				E8CFBF0102A47C42F7AE900BA70D8743 /* table_cache.cc in Sources */,
-				4A396D7D7A5DF81544FE09D469655521 /* testharness.cc in Sources */,
-				E6FCAF8C2C830A2B957CFA84DB85EDFD /* testutil.cc in Sources */,
-				0474D74E6A62B79963D179CD1CBC066A /* two_level_iterator.cc in Sources */,
-				A5E8ED57B0C6F28417A66D4102B60205 /* version_edit.cc in Sources */,
-				5CC14863F1CE18295BCA9D191A728C9A /* version_set.cc in Sources */,
-				B0A9906F5C64376F4AD621211F51BA98 /* write_batch.cc in Sources */,
+				E2BA209972B122F62104234D2CE37721 /* log_reader.cc in Sources */,
+				06596F1A20E0EED84A99DF0BF8A56631 /* log_writer.cc in Sources */,
+				6C0672D1A1C2A4314FCFE07DD395F2DB /* logging.cc in Sources */,
+				ECD3F34803047918661911D3357E9816 /* memtable.cc in Sources */,
+				44794AEFD21F4ED58B614089A345AD6D /* merger.cc in Sources */,
+				7D2BB270F1640395F22447E65CCCC8BD /* options.cc in Sources */,
+				D5793C2658C18FCC05D9EB07CA0B7851 /* port_posix.cc in Sources */,
+				632082A8AB33BC832B9AEB065670A73F /* port_posix_sse.cc in Sources */,
+				7A6997BB36048E7A0274322540832861 /* repair.cc in Sources */,
+				47B6691DCE0F2222FACADB70F11CB268 /* status.cc in Sources */,
+				37AFE7183E4C5A03A95693BCD9EA16DE /* table.cc in Sources */,
+				21DAA1B8DC0FB5AAA25585BB0F6B8B5C /* table_builder.cc in Sources */,
+				4DA73447D7B010A64DC632F369DFEB7A /* table_cache.cc in Sources */,
+				0E5599BFCD249D140F72C5C5F69F1DB1 /* testharness.cc in Sources */,
+				50F4DA4D9048A0EB36E56D4688059605 /* testutil.cc in Sources */,
+				8650A6AA7463E955938A1876A4C5BD60 /* two_level_iterator.cc in Sources */,
+				5F7602BDF8125CCECDEC99BFB24E1082 /* version_edit.cc in Sources */,
+				7BB737D74CAC8183CF6943522A4C6F2B /* version_set.cc in Sources */,
+				9F48FFB3B135C31B33407AE1A77B2874 /* write_batch.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8428E22D39B9BD8D3246B9EDF99928B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A77B55DCC1BE5114A43CA4805B11702 /* GTMGatherInputStream.m in Sources */,
+				D0325E1DA0115C5CC29CDAE88C3805E3 /* GTMMIMEDocument.m in Sources */,
+				00762C9BF778EAFBBE509F6D1958D2B7 /* GTMReadMonitorInputStream.m in Sources */,
+				D65E2249B67DA691279CACC6E4EE8160 /* GTMSessionFetcher-dummy.m in Sources */,
+				D9880B3294914CCD08190AA0800A3FC2 /* GTMSessionFetcher.m in Sources */,
+				D5569D139A2A081F99B02E75B05490FC /* GTMSessionFetcherLogging.m in Sources */,
+				C372026C002EF53C7CE2B58EFB4F47C9 /* GTMSessionFetcherService.m in Sources */,
+				A4BFA5D03E05CCF4D7BA1E9DB25CDB76 /* GTMSessionUploadFetcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
