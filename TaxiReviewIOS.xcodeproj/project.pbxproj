@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F0826E8205FC5CE00722346 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F0826E7205FC5CE00722346 /* GoogleService-Info.plist */; };
 		1F2935972056AA3200638027 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2935962056AA3200638027 /* AppDelegate.swift */; };
 		1F2935992056AA3200638027 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2935982056AA3200638027 /* SearchViewController.swift */; };
 		1F29359B2056AA3200638027 /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29359A2056AA3200638027 /* RecentViewController.swift */; };
@@ -22,10 +23,10 @@
 		1F728AA9205C6C2300E4771C /* Taxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F728AA8205C6C2300E4771C /* Taxi.swift */; };
 		1F728AAB205C6CAB00E4771C /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F728AAA205C6CAB00E4771C /* Review.swift */; };
 		99AFE72AA0F53EC68DE6D09D /* Pods_TaxiReviewIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0FF951FD24259CF4B3DC7F /* Pods_TaxiReviewIOS.framework */; };
-		CA6CF974205C0818008A01B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA6CF973205C0818008A01B7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F0826E7205FC5CE00722346 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1F2935932056AA3200638027 /* TaxiReviewIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiReviewIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2935962056AA3200638027 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F2935982056AA3200638027 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -45,7 +46,6 @@
 		214DAD51FFAE7CF175E6CD64 /* Pods-TaxiReviewIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxiReviewIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaxiReviewIOS/Pods-TaxiReviewIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2AC20C3C6E1E803B3A8D5835 /* Pods-TaxiReviewIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxiReviewIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaxiReviewIOS/Pods-TaxiReviewIOS.release.xcconfig"; sourceTree = "<group>"; };
 		5E0FF951FD24259CF4B3DC7F /* Pods_TaxiReviewIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaxiReviewIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA6CF973205C0818008A01B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 				1F29359F2056AA3200638027 /* Assets.xcassets */,
 				1F2935A12056AA3200638027 /* LaunchScreen.storyboard */,
 				1F2935A42056AA3200638027 /* Info.plist */,
-				CA6CF973205C0818008A01B7 /* GoogleService-Info.plist */,
+				1F0826E7205FC5CE00722346 /* GoogleService-Info.plist */,
 			);
 			path = TaxiReviewIOS;
 			sourceTree = "<group>";
@@ -212,7 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F2935A32056AA3200638027 /* LaunchScreen.storyboard in Resources */,
-				CA6CF974205C0818008A01B7 /* GoogleService-Info.plist in Resources */,
+				1F0826E8205FC5CE00722346 /* GoogleService-Info.plist in Resources */,
 				1F2935A02056AA3200638027 /* Assets.xcassets in Resources */,
 				1F29359E2056AA3200638027 /* Main.storyboard in Resources */,
 			);
@@ -246,6 +246,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TaxiReviewIOS/Pods-TaxiReviewIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
@@ -253,6 +255,8 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
@@ -269,9 +273,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TaxiReviewIOS/Pods-TaxiReviewIOS-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

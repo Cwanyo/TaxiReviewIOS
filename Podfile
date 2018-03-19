@@ -9,6 +9,8 @@ target 'TaxiReviewIOS' do
   # Pods for TaxiReviewIOS
   pod 'Firebase/Core'
   pod 'Firebase/Database'
+  pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
 
   pod 'Kingfisher', '~> 4.0'
 
