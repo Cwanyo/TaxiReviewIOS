@@ -47,6 +47,10 @@ class ProfileViewController: UIViewController{
         }
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        Auth.auth().removeStateDidChangeListener(handle!)
+    }
+    
     // Login view
     lazy var loginViewController: LoginViewController = {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
@@ -71,11 +75,6 @@ class ProfileViewController: UIViewController{
         childViewController.didMove(toParentViewController: self)
     }
     
-    override func viewWillDisappear(_ animated: Bool) {
-        Auth.auth().removeStateDidChangeListener(handle!)
-    }
-    
-    
     @IBAction func signOut(_ sender: UIButton) {
         
         let firebaseAuth = Auth.auth()
@@ -85,7 +84,8 @@ class ProfileViewController: UIViewController{
         } catch let signOutError as NSError {
             print ("Error signing out: %@", signOutError)
         }
-        
+        /*GIDSignIn.sharedInstance().signOut()
+        print ("Successfully signing out")*/
     }
     
 }

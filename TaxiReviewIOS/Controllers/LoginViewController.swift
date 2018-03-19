@@ -11,16 +11,12 @@ import GoogleSignIn
 
 class LoginViewController: UIViewController, GIDSignInUIDelegate {
 
-    var handle: AuthStateDidChangeListenerHandle?
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        //setupGoogleButton()
+        
     }
     
     @IBAction func googleOnClick(_ sender: UIButton) {
-        //GIDSignIn.sharedInstance().delegate = self
         GIDSignIn.sharedInstance().uiDelegate = self
         GIDSignIn.sharedInstance().signIn()
     }
