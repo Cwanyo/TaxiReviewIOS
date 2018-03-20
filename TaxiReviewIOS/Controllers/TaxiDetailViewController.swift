@@ -22,11 +22,11 @@ class TaxiDetailViewController: UIViewController, UITableViewDataSource, UITable
     
     var taxiPlateNumber: String?
     
-    
-    //var taxi: Taxi?
     var taxi = Taxi()
     
     var ref: DatabaseReference!
+    
+    var handle: AuthStateDidChangeListenerHandle?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,9 +40,22 @@ class TaxiDetailViewController: UIViewController, UITableViewDataSource, UITable
         
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewWillAppear(_ animated: Bool) {
+        handle = Auth.auth().addStateDidChangeListener { (auth, user) in
+            if(user != nil){
+                // if user already logged in
+                self.addToUserRecentView(userId: (user?.uid)!)
+            }
+        }
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        Auth.auth().removeStateDidChangeListener(handle!)
+    }
+    
+    func addToUserRecentView(userId: String){
+        self.ref.child("Users/"+userId+"/Recents/"+self.taxiPlateNumber!).setValue(Int64(Date().timeIntervalSince1970 * 1000))
+        print("Added to my review")
     }
     
     // Load data from firebase
@@ -264,15 +277,9 @@ class TaxiDetailViewController: UIViewController, UITableViewDataSource, UITable
         return cell
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        guard let addReviewVC = segue.destination as? AddReviewViewController else {return}
+        addReviewVC.taxiPlateNumber = taxiPlateNumber
     }
-    */
 
 }

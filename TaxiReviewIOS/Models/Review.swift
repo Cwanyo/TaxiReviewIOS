@@ -8,6 +8,7 @@
 import Foundation
 
 class Review {
+    
     var userId: String
     var userName: String
     var userImage: String

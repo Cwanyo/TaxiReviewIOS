@@ -8,6 +8,7 @@
 import Foundation
 
 class Taxi {
+    
     var plateNumber: String
     var images: [String]
     var avgCleanness: Double
