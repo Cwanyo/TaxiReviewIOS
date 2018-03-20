@@ -340,15 +340,20 @@
                                 <state key="normal" title="Submit">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="addReview:" destination="6ta-j3-0n8" eventType="touchUpInside" id="iI4-Lb-ufV"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="AQC-a8-hWE"/>
                     </view>
                     <connections>
+                        <outlet property="btn_submit" destination="SO9-sJ-Mie" id="X2x-n3-OjS"/>
                         <outlet property="lb_cleanness" destination="Vam-pR-GWh" id="9H8-br-GXQ"/>
                         <outlet property="lb_politeness" destination="I7F-nD-HBY" id="eKG-Ps-eQg"/>
                         <outlet property="lb_service" destination="CBC-DO-cGB" id="gGA-MN-zBr"/>
+                        <outlet property="tv_comment" destination="wir-mv-lvd" id="vzG-h6-wfS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tcZ-wa-yHn" userLabel="First Responder" sceneMemberID="firstResponder"/>

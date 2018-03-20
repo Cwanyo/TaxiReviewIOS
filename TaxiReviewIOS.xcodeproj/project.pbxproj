@@ -41,8 +41,8 @@
 		1F5B8D242059B4CD00042025 /* UserReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserReviewTableViewCell.swift; sourceTree = "<group>"; };
 		1F5B8D262059B9FA00042025 /* AddReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewViewController.swift; sourceTree = "<group>"; };
 		1F5B8D282059BD9C00042025 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		1F728AA8205C6C2300E4771C /* Taxi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Taxi.swift; path = TaxiReviewIOS/Controllers/Taxi.swift; sourceTree = SOURCE_ROOT; };
-		1F728AAA205C6CAB00E4771C /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Review.swift; path = TaxiReviewIOS/Controllers/Review.swift; sourceTree = SOURCE_ROOT; };
+		1F728AA8205C6C2300E4771C /* Taxi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Taxi.swift; path = TaxiReviewIOS/Models/Taxi.swift; sourceTree = SOURCE_ROOT; };
+		1F728AAA205C6CAB00E4771C /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Review.swift; path = TaxiReviewIOS/Models/Review.swift; sourceTree = SOURCE_ROOT; };
 		214DAD51FFAE7CF175E6CD64 /* Pods-TaxiReviewIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxiReviewIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaxiReviewIOS/Pods-TaxiReviewIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2AC20C3C6E1E803B3A8D5835 /* Pods-TaxiReviewIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxiReviewIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaxiReviewIOS/Pods-TaxiReviewIOS.release.xcconfig"; sourceTree = "<group>"; };
 		5E0FF951FD24259CF4B3DC7F /* Pods_TaxiReviewIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaxiReviewIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,7 +92,6 @@
 				1F50EBE720598F3A000D4E7E /* Models */,
 				1F50EBE620598F2D000D4E7E /* Views */,
 				1F50EBE820598F83000D4E7E /* Controllers */,
-				1F50EBE9205990F3000D4E7E /* Services */,
 				1F2935962056AA3200638027 /* AppDelegate.swift */,
 				1F29359C2056AA3200638027 /* Main.storyboard */,
 				1F29359F2056AA3200638027 /* Assets.xcassets */,
@@ -132,13 +131,6 @@
 				1F5B8D262059B9FA00042025 /* AddReviewViewController.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		1F50EBE9205990F3000D4E7E /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		6B58F18BE1F8561E7F727AE5 /* Pods */ = {
