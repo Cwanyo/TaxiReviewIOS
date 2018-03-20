@@ -16,6 +16,7 @@ class ProfileViewController: UIViewController{
     @IBOutlet weak var img_profile: UIImageView!
     @IBOutlet weak var tf_email: UITextField!
     
+    var ref: DatabaseReference!
     
     var handle: AuthStateDidChangeListenerHandle?
     
@@ -38,10 +39,19 @@ class ProfileViewController: UIViewController{
                 // set user info
                 self.lb_username.text = user?.displayName
                 
-                let resource = ImageResource(downloadURL: (user?.photoURL)!, cacheKey: user?.photoURL?.absoluteString)
+                let resource = ImageResource(downloadURL: (user?.providerData[0].photoURL)!, cacheKey: user?.providerData[0].photoURL?.absoluteString)
                 self.img_profile.kf.setImage(with: resource)
                 
                 self.tf_email.text = user?.email
+                
+                self.ref = Database.database().reference()
+                
+                // update user info in firebase
+                let r = self.ref.child("Users").child((user?.uid)!)
+               
+                r.child("Email").setValue(user?.email)
+                r.child("Name").setValue(user?.displayName)
+                r.child("Image").setValue(user?.providerData[0].photoURL?.absoluteString)
                 
             }
         }
@@ -87,5 +97,6 @@ class ProfileViewController: UIViewController{
         /*GIDSignIn.sharedInstance().signOut()
         print ("Successfully signing out")*/
     }
+    
     
 }
