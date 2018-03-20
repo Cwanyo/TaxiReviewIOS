@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F0826E8205FC5CE00722346 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F0826E7205FC5CE00722346 /* GoogleService-Info.plist */; };
 		1F2935972056AA3200638027 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2935962056AA3200638027 /* AppDelegate.swift */; };
 		1F2935992056AA3200638027 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2935982056AA3200638027 /* SearchViewController.swift */; };
-		1F29359B2056AA3200638027 /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29359A2056AA3200638027 /* RecentViewController.swift */; };
+		1F29359B2056AA3200638027 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29359A2056AA3200638027 /* HistoryViewController.swift */; };
 		1F29359E2056AA3200638027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F29359C2056AA3200638027 /* Main.storyboard */; };
 		1F2935A02056AA3200638027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F29359F2056AA3200638027 /* Assets.xcassets */; };
 		1F2935A32056AA3200638027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F2935A12056AA3200638027 /* LaunchScreen.storyboard */; };
+		1F43034020614A6200690F35 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F43033F20614A6200690F35 /* GoogleService-Info.plist */; };
 		1F50EBE520598EC2000D4E7E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F50EBE420598EC2000D4E7E /* ProfileViewController.swift */; };
 		1F5B8D212059AAD000042025 /* TaxiDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B8D202059AAD000042025 /* TaxiDetailViewController.swift */; };
 		1F5B8D232059AD5600042025 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B8D222059AD5600042025 /* TabBarController.swift */; };
@@ -26,15 +26,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F0826E7205FC5CE00722346 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1F2935932056AA3200638027 /* TaxiReviewIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiReviewIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2935962056AA3200638027 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F2935982056AA3200638027 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		1F29359A2056AA3200638027 /* RecentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
+		1F29359A2056AA3200638027 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		1F29359D2056AA3200638027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F29359F2056AA3200638027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F2935A22056AA3200638027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F2935A42056AA3200638027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F43033F20614A6200690F35 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1F50EBE420598EC2000D4E7E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		1F5B8D202059AAD000042025 /* TaxiDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiDetailViewController.swift; sourceTree = "<group>"; };
 		1F5B8D222059AD5600042025 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 				1F29359F2056AA3200638027 /* Assets.xcassets */,
 				1F2935A12056AA3200638027 /* LaunchScreen.storyboard */,
 				1F2935A42056AA3200638027 /* Info.plist */,
-				1F0826E7205FC5CE00722346 /* GoogleService-Info.plist */,
+				1F43033F20614A6200690F35 /* GoogleService-Info.plist */,
 			);
 			path = TaxiReviewIOS;
 			sourceTree = "<group>";
@@ -124,7 +124,7 @@
 			children = (
 				1F5B8D282059BD9C00042025 /* LoginViewController.swift */,
 				1F5B8D222059AD5600042025 /* TabBarController.swift */,
-				1F29359A2056AA3200638027 /* RecentViewController.swift */,
+				1F29359A2056AA3200638027 /* HistoryViewController.swift */,
 				1F2935982056AA3200638027 /* SearchViewController.swift */,
 				1F50EBE420598EC2000D4E7E /* ProfileViewController.swift */,
 				1F5B8D202059AAD000042025 /* TaxiDetailViewController.swift */,
@@ -204,7 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F2935A32056AA3200638027 /* LaunchScreen.storyboard in Resources */,
-				1F0826E8205FC5CE00722346 /* GoogleService-Info.plist in Resources */,
+				1F43034020614A6200690F35 /* GoogleService-Info.plist in Resources */,
 				1F2935A02056AA3200638027 /* Assets.xcassets in Resources */,
 				1F29359E2056AA3200638027 /* Main.storyboard in Resources */,
 			);
@@ -285,7 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F5B8D292059BD9C00042025 /* LoginViewController.swift in Sources */,
-				1F29359B2056AA3200638027 /* RecentViewController.swift in Sources */,
+				1F29359B2056AA3200638027 /* HistoryViewController.swift in Sources */,
 				1F2935972056AA3200638027 /* AppDelegate.swift in Sources */,
 				1F5B8D272059B9FA00042025 /* AddReviewViewController.swift in Sources */,
 				1F50EBE520598EC2000D4E7E /* ProfileViewController.swift in Sources */,

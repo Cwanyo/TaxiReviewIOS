@@ -426,26 +426,17 @@
             </objects>
             <point key="canvasLocation" x="600.79999999999995" y="1163.568215892054"/>
         </scene>
-        <!--Recent-->
+        <!--History-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="RecentViewController" customModule="TaxiReviewIOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" customClass="HistoryViewController" customModule="TaxiReviewIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wan will do this later" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ju0-I1-Sfp">
-                                <rect key="frame" x="117" y="235" width="158" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Recent" image="recent" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="History" image="history" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -556,8 +547,8 @@
     </scenes>
     <resources>
         <image name="cat" width="275" height="183"/>
+        <image name="history" width="29" height="30"/>
         <image name="profile" width="30" height="30"/>
-        <image name="recent" width="29" height="30"/>
         <image name="search" width="30" height="30"/>
     </resources>
 </document>
