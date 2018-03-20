@@ -30,10 +30,13 @@ class ProfileViewController: UIViewController{
             if(user == nil){
                 // if user not login, show loginViewController
                 print("not log in")
+                self.navigationItem.title = ""
                 self.loginViewController.view.isHidden = false
+                
             }else{
                 // if user already logged in, show profileViewController
                 print("logged in")
+                self.navigationItem.title = "Profile"
                 self.loginViewController.view.isHidden = true
                 
                 // set user info
@@ -43,7 +46,7 @@ class ProfileViewController: UIViewController{
                 self.img_profile.kf.setImage(with: resource)
                 
                 self.tf_email.text = user?.email
-                
+               
                 self.ref = Database.database().reference()
                 
                 // update user info in firebase
@@ -74,7 +77,6 @@ class ProfileViewController: UIViewController{
     
     func addViewControllerAsChildViewController(childViewController: UIViewController){
         
-        print("call")
         addChildViewController(childViewController)
         
         view.addSubview(childViewController.view)

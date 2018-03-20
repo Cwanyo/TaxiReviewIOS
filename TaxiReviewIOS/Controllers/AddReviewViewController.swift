@@ -22,13 +22,24 @@ class AddReviewViewController: UIViewController, UITextViewDelegate {
     
     var handle: AuthStateDidChangeListenerHandle?
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         tv_comment.delegate = self
         btn_submit.isEnabled = false
         btn_submit.alpha = 0.5
+    }
+    
+    /*func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
+        if text == "\n" {
+            tv_comment.resignFirstResponder()
+            return false
+        }
+        return true
+    }*/
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        tv_comment.resignFirstResponder()
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -37,7 +48,6 @@ class AddReviewViewController: UIViewController, UITextViewDelegate {
                 // if user not login, show loginViewController
                 print("not log in")
                 self.loginViewController.view.isHidden = false
-                self.navigationItem.title = "Log in"
             }else{
                 // if user already logged in
                 print("logged in")

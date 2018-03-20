@@ -53,9 +53,7 @@ class MyReviewViewController: UIViewController, UITableViewDataSource, UITableVi
     func getListOfMyReviews(){
         ref = Database.database().reference()
         
-        let myRecentViewRef = ref.child("Users/"+userId!+"/Reviews/").queryOrderedByValue()
-        
-        myRecentViewRef.observe(.value) { (myRecentViewData) in
+        ref.child("Users/"+userId!+"/Reviews/").queryOrderedByValue().observeSingleEvent(of: .value) { (myRecentViewData) in
             if (!myRecentViewData.exists()){
                 print("My recent view not exist")
                 

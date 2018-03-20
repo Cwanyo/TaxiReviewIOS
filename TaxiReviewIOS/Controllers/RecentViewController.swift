@@ -54,9 +54,7 @@ class RecentViewController: UIViewController, UITableViewDelegate, UITableViewDa
     func getListOfMyRecentViews(){
         ref = Database.database().reference()
         
-        let myRecentViewRef = ref.child("Users/"+userId!+"/Recents/").queryOrderedByValue()
-        
-        myRecentViewRef.observe(.value) { (myRecentViewData) in
+        ref.child("Users/"+userId!+"/Recents/").queryOrderedByValue().observeSingleEvent(of: .value) { (myRecentViewData) in
             if (!myRecentViewData.exists()){
                 print("My recent view not exist")
                 

@@ -11,7 +11,6 @@ import Kingfisher
 
 class TaxiDetailViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
     
-    
     @IBOutlet weak var imageScrollView: UIScrollView!
     
     @IBOutlet weak var lb_service: UILabel!
@@ -27,6 +26,7 @@ class TaxiDetailViewController: UIViewController, UITableViewDataSource, UITable
     var ref: DatabaseReference!
     
     var handle: AuthStateDidChangeListenerHandle?
+    var oHandle: UInt?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,11 +36,11 @@ class TaxiDetailViewController: UIViewController, UITableViewDataSource, UITable
         
         self.navigationItem.title = taxiPlateNumber
         
-        getTaxiDetail()
-        
     }
 
     override func viewWillAppear(_ animated: Bool) {
+        getTaxiDetail()
+        
         handle = Auth.auth().addStateDidChangeListener { (auth, user) in
             if(user != nil){
                 // if user already logged in
@@ -51,6 +51,8 @@ class TaxiDetailViewController: UIViewController, UITableViewDataSource, UITable
     
     override func viewWillDisappear(_ animated: Bool) {
         Auth.auth().removeStateDidChangeListener(handle!)
+        // Remove oHandel
+        ref.child("Taxis/"+taxiPlateNumber!+"/UserReviews").removeObserver(withHandle: oHandle!)
     }
     
     func addToUserRecentView(userId: String){
@@ -71,7 +73,6 @@ class TaxiDetailViewController: UIViewController, UITableViewDataSource, UITable
         
     }
    
-    
     // Image
     
     func getTaxiImages(completionHandler: @escaping (Bool) -> ()){
@@ -110,9 +111,7 @@ class TaxiDetailViewController: UIViewController, UITableViewDataSource, UITable
     
     func getTaxiReviews(){
        
-        
-        
-        ref.child("Taxis/"+taxiPlateNumber!+"/UserReviews").observe(.value) { (snapshot) in
+        self.oHandle = ref.child("Taxis/"+taxiPlateNumber!+"/UserReviews").observe(.value) { (snapshot) in
             
             if (snapshot.exists()){
                 

@@ -15,22 +15,19 @@ class SearchViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         tf_search.delegate = self
-        //btn_search.isEnabled = false
+        btn_search.isEnabled = false
         
-        // remove later
-        tf_search.text = "ทว2434"
+        tf_search.placeholder = "ทว2434"
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         tf_search.resignFirstResponder()
         return true
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        tf_search.resignFirstResponder()
     }
     
     @IBAction func searchOnEdit(_ sender: UITextField) {

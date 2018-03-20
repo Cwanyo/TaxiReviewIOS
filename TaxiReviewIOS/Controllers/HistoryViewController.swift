@@ -6,13 +6,51 @@
 //
 
 import UIKit
+import Firebase
 
 class HistoryViewController: UIViewController {
 
+    var handle: AuthStateDidChangeListenerHandle?
+    
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         updateView(index: 0)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        handle = Auth.auth().addStateDidChangeListener { (auth, user) in
+            if(user == nil){
+                // if user not login, show loginViewController
+                print("not log in")
+                self.navigationItem.titleView?.isHidden = true
+                self.loginViewController.view.isHidden = false
+                self.navigationItem.title = "Log in"
+            }else{
+                // if user already logged in
+                self.navigationItem.titleView?.isHidden = false
+                print("logged in")
+                self.loginViewController.view.isHidden = true
+            }
+        }
+    }
+    
+    // Login view
+    lazy var loginViewController: LoginViewController = {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        
+        var viewController = storyboard.instantiateViewController(withIdentifier: "loginViewController") as! LoginViewController
+        
+        self.addViewControllerAsChildViewController(childViewController: viewController)
+        
+        return viewController
+    }()
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        Auth.auth().removeStateDidChangeListener(handle!)
     }
     
     // recent view
