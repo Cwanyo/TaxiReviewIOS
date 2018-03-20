@@ -13,7 +13,6 @@
 		1F29359E2056AA3200638027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F29359C2056AA3200638027 /* Main.storyboard */; };
 		1F2935A02056AA3200638027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F29359F2056AA3200638027 /* Assets.xcassets */; };
 		1F2935A32056AA3200638027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F2935A12056AA3200638027 /* LaunchScreen.storyboard */; };
-		1F43034020614A6200690F35 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F43033F20614A6200690F35 /* GoogleService-Info.plist */; };
 		1F50EBE520598EC2000D4E7E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F50EBE420598EC2000D4E7E /* ProfileViewController.swift */; };
 		1F5B8D212059AAD000042025 /* TaxiDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B8D202059AAD000042025 /* TaxiDetailViewController.swift */; };
 		1F5B8D232059AD5600042025 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B8D222059AD5600042025 /* TabBarController.swift */; };
@@ -22,6 +21,10 @@
 		1F5B8D292059BD9C00042025 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5B8D282059BD9C00042025 /* LoginViewController.swift */; };
 		1F728AA9205C6C2300E4771C /* Taxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F728AA8205C6C2300E4771C /* Taxi.swift */; };
 		1F728AAB205C6CAB00E4771C /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F728AAA205C6CAB00E4771C /* Review.swift */; };
+		1F906338206159F100E68437 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F906337206159F100E68437 /* GoogleService-Info.plist */; };
+		1F90633A20615A1B00E68437 /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F90633920615A1B00E68437 /* RecentViewController.swift */; };
+		1F90633C20615A4F00E68437 /* MyReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F90633B20615A4F00E68437 /* MyReviewViewController.swift */; };
+		1F90633E20616A4700E68437 /* TaxiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F90633D20616A4700E68437 /* TaxiTableViewCell.swift */; };
 		99AFE72AA0F53EC68DE6D09D /* Pods_TaxiReviewIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0FF951FD24259CF4B3DC7F /* Pods_TaxiReviewIOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +37,6 @@
 		1F29359F2056AA3200638027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F2935A22056AA3200638027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F2935A42056AA3200638027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F43033F20614A6200690F35 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1F50EBE420598EC2000D4E7E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		1F5B8D202059AAD000042025 /* TaxiDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiDetailViewController.swift; sourceTree = "<group>"; };
 		1F5B8D222059AD5600042025 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
@@ -43,6 +45,10 @@
 		1F5B8D282059BD9C00042025 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1F728AA8205C6C2300E4771C /* Taxi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Taxi.swift; path = TaxiReviewIOS/Models/Taxi.swift; sourceTree = SOURCE_ROOT; };
 		1F728AAA205C6CAB00E4771C /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Review.swift; path = TaxiReviewIOS/Models/Review.swift; sourceTree = SOURCE_ROOT; };
+		1F906337206159F100E68437 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1F90633920615A1B00E68437 /* RecentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
+		1F90633B20615A4F00E68437 /* MyReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReviewViewController.swift; sourceTree = "<group>"; };
+		1F90633D20616A4700E68437 /* TaxiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiTableViewCell.swift; sourceTree = "<group>"; };
 		214DAD51FFAE7CF175E6CD64 /* Pods-TaxiReviewIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxiReviewIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaxiReviewIOS/Pods-TaxiReviewIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2AC20C3C6E1E803B3A8D5835 /* Pods-TaxiReviewIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaxiReviewIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaxiReviewIOS/Pods-TaxiReviewIOS.release.xcconfig"; sourceTree = "<group>"; };
 		5E0FF951FD24259CF4B3DC7F /* Pods_TaxiReviewIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaxiReviewIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,7 +103,7 @@
 				1F29359F2056AA3200638027 /* Assets.xcassets */,
 				1F2935A12056AA3200638027 /* LaunchScreen.storyboard */,
 				1F2935A42056AA3200638027 /* Info.plist */,
-				1F43033F20614A6200690F35 /* GoogleService-Info.plist */,
+				1F906337206159F100E68437 /* GoogleService-Info.plist */,
 			);
 			path = TaxiReviewIOS;
 			sourceTree = "<group>";
@@ -106,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				1F5B8D242059B4CD00042025 /* UserReviewTableViewCell.swift */,
+				1F90633D20616A4700E68437 /* TaxiTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -124,11 +131,13 @@
 			children = (
 				1F5B8D282059BD9C00042025 /* LoginViewController.swift */,
 				1F5B8D222059AD5600042025 /* TabBarController.swift */,
-				1F29359A2056AA3200638027 /* HistoryViewController.swift */,
 				1F2935982056AA3200638027 /* SearchViewController.swift */,
 				1F50EBE420598EC2000D4E7E /* ProfileViewController.swift */,
 				1F5B8D202059AAD000042025 /* TaxiDetailViewController.swift */,
 				1F5B8D262059B9FA00042025 /* AddReviewViewController.swift */,
+				1F29359A2056AA3200638027 /* HistoryViewController.swift */,
+				1F90633920615A1B00E68437 /* RecentViewController.swift */,
+				1F90633B20615A4F00E68437 /* MyReviewViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -204,7 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F2935A32056AA3200638027 /* LaunchScreen.storyboard in Resources */,
-				1F43034020614A6200690F35 /* GoogleService-Info.plist in Resources */,
+				1F906338206159F100E68437 /* GoogleService-Info.plist in Resources */,
 				1F2935A02056AA3200638027 /* Assets.xcassets in Resources */,
 				1F29359E2056AA3200638027 /* Main.storyboard in Resources */,
 			);
@@ -285,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F5B8D292059BD9C00042025 /* LoginViewController.swift in Sources */,
+				1F90633E20616A4700E68437 /* TaxiTableViewCell.swift in Sources */,
 				1F29359B2056AA3200638027 /* HistoryViewController.swift in Sources */,
 				1F2935972056AA3200638027 /* AppDelegate.swift in Sources */,
 				1F5B8D272059B9FA00042025 /* AddReviewViewController.swift in Sources */,
@@ -293,7 +303,9 @@
 				1F728AAB205C6CAB00E4771C /* Review.swift in Sources */,
 				1F5B8D212059AAD000042025 /* TaxiDetailViewController.swift in Sources */,
 				1F728AA9205C6C2300E4771C /* Taxi.swift in Sources */,
+				1F90633A20615A1B00E68437 /* RecentViewController.swift in Sources */,
 				1F5B8D252059B4CD00042025 /* UserReviewTableViewCell.swift in Sources */,
+				1F90633C20615A4F00E68437 /* MyReviewViewController.swift in Sources */,
 				1F2935992056AA3200638027 /* SearchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
