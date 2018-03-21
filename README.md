@@ -27,6 +27,5 @@ The application that allows users to find and check taxi reviews from other user
 
 # Contributors
 - Chatchawan yoojuie
-- Pannachet Lertananta
 - Sai Kham Sheng
 
