@@ -30,6 +30,7 @@ class RecentViewController: UIViewController, UITableViewDelegate, UITableViewDa
 
         taxiTable.delegate = self
         taxiTable.dataSource = self
+        taxiTable.rowHeight = 120.0;
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -111,6 +112,8 @@ class RecentViewController: UIViewController, UITableViewDelegate, UITableViewDa
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "taxiCell", for: indexPath) as! TaxiTableViewCell
         
+        
+        
         let imagePath = self.taxis[indexPath.row].Image
         let resource = ImageResource(downloadURL: URL(string: imagePath)!, cacheKey: imagePath)
         
@@ -120,7 +123,7 @@ class RecentViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         return cell
     }
-   
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "showTaxiDetail", sender: self)
     }

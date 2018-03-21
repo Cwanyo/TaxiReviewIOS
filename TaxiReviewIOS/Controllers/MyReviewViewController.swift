@@ -29,6 +29,7 @@ class MyReviewViewController: UIViewController, UITableViewDataSource, UITableVi
 
         taxiTable.dataSource = self
         taxiTable.delegate = self
+        taxiTable.rowHeight = 120.0;
     }
 
     override func viewWillAppear(_ animated: Bool) {
